@@ -11,7 +11,7 @@ Welcome to the Github repository of a Credit Card Fraud Detection Project which 
 - Data Automation
 - Dashboarding
 
-Thus, it covers all the steps in the Data Analytics lifecycle process from a raw unprocessed dataset to final cleaned data with appended model outputs and reporting through visualizations and extracted insights.
+An end-to-end data analytics project simulating a real-world fraud detection pipeline using SQL, Python, and Power BI and the workflow includes data ingestion, cleaning, feature engineering, unsupervised clustering, anomaly detection using Isolation Forest, and a final interactive dashboard as mentioned above. Thus, it covers all the steps in the Data Analytics lifecycle process from a raw unprocessed dataset to final cleaned data with appended model outputs and reporting through visualizations and extracted insights.
 
 ## Tech Stack
 
