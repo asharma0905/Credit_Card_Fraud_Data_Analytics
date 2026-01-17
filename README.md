@@ -5,7 +5,7 @@ Welcome to the Github repository of a Credit Card Fraud Detection Project which 
 - Augmenting Dataset 
 - Data cleaning 
 - Data transformation 
-- Exploratory data analysishttps://github.com/asharma0905/Credit_Card_Fraud_Data_Analytics/blob/main/README.md
+- Exploratory data analysis
 - Data Modeling 
 - Data Validation
 - Data Automation
