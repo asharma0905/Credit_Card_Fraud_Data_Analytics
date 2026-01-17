@@ -64,6 +64,15 @@ Dashboard                     | Power BI with KPIs and visuals |
 > View [dashboard export (PDF)]
 
 
+## Data Source
+
+- [Credit Card Fraud Detection – GoMask](https://gomask.ai/marketplace/datasets/credit-card-fraud-patterns)
+
+## Author
+- Amartya Sharma | [LinkedIn](https://www.linkedin.com/in/amartya-sharma-svc/)
+
+
+
 
 
 
