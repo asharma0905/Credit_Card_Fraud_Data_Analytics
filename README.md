@@ -1,0 +1,64 @@
+# Credit Card Fraud Data Analytics Project
+## Introduction
+Welcome to the Github repository of a Credit Card Fraud Detection Project which involves the following workflow:
+- Procurement of Dataset 
+- Augmenting Dataset 
+- Data cleaning 
+- Data transformation 
+- Exploratory data analysishttps://github.com/asharma0905/Credit_Card_Fraud_Data_Analytics/blob/main/README.md
+- Data Modeling 
+- Data Validation
+- Data Automation
+- Dashboarding
+
+Thus, it covers all the steps in the Data Analytics lifecycle process from a raw unprocessed dataset to final cleaned data with appended model outputs and reporting through visualizations and extracted insights.
+
+## Tech Stack
+
+- **Data Source**: Open-source credit card transaction dataset (with fraud labels)
+- **Data Storage**: AWS S3
+- **Query Layer**: AWS Athena (SQL)
+- **Processing**: Python (pandas, numpy, seaborn, scikit-learn)
+- **Clustering**: K-Means
+- **Outlier Detection**: Isolation Forest (unsupervised model) trained with multiple combinations of dataset sizes and number of estimators for optimal performance.
+- **Validation**: PyTest for pipeline unit testing
+- **Automation**: AWS Glue ETL, AWS Cloudwatch
+- **Dashboarding**: Power BI
+
+## Project Scope
+
+Focus                         | Key Activities |
+------------------------------|----------------|
+Data Acquisition              | Download & upload dataset to AWS S3 |
+SQL Exploration               | Query with AWS Athena |
+Data Cleaning                 | Handle nulls, duplicates, types |
+Feature Engineering & EDA     | Derive features, compute correlation |
+Clustering                    | K-Means on scaled features |
+Outlier Detection             | Isolation Forest to detect frauds |
+Pipeline Automation & Testing | Modular scripts + Glue ETL + PyTest |
+Dashboard                     | Power BI with KPIs and visuals |
+
+## Project Structure
+
+├── data/ # Raw and processed CSVs
+
+├── scripts/ # Python scripts for cleaning, transformation, clustering, modeling
+
+├── tests/ # PyTest validation scripts
+
+├── dashboard/ # Power BI.pbix file and screenshots
+
+└── README.md
+
+## Final Dashboard (Power BI)
+
+![Dashboard Screenshot
+
+> View [dashboard export (PDF)]
+
+
+
+
+
+
+
