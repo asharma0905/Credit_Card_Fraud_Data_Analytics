@@ -52,7 +52,16 @@ Dashboard                     | Power BI with KPIs and visuals |
 
 ## Final Dashboard (Power BI)
 
-![Dashboard Screenshot
+![Dashboard Screenshots] 
+
+dashboard/Credit_Card_Fraud_Project_Dashboard_1.png
+
+dashboard/Credit_Card_Fraud_Project_Dashboard_2.png
+
+dashboard/Credit_Card_Fraud_Project_Dashboard_3.png
+
+dashboard/Credit_Card_Fraud_Project_Dashboard_4.png
+
 
 > View [dashboard export (PDF)]
 
