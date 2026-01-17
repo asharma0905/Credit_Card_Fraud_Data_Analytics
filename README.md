@@ -42,15 +42,11 @@ Dashboard                     | Power BI with KPIs and visuals |
 
 ├── data/ # Raw and processed CSVs
 
-├── notebooks/ # Jupyter notebooks (EDA, clustering, modeling)
-
 ├── scripts/ # Python scripts for cleaning, modeling
 
 ├── tests/ # PyTest validation scripts
 
 ├── dashboard/ # Power BI .pbix file or screenshots
-
-├── final_credit_card_data.csv
 
 └── README.md
 
