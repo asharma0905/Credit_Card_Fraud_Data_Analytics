@@ -5,7 +5,7 @@ Welcome to the Github repository of a Credit Card Fraud Detection Project which 
 - Augmenting Dataset 
 - Data cleaning 
 - Data transformation 
-- Exploratory data analysis
+- Exploratory data analysishttps://github.com/asharma0905/Credit_Card_Fraud_Data_Analytics/blob/main/README.md
 - Data Modeling 
 - Data Validation
 - Data Automation
@@ -42,11 +42,11 @@ Dashboard                     | Power BI with KPIs and visuals |
 
 ├── data/ # Raw and processed CSVs
 
-├── scripts/ # Python scripts for cleaning, modeling
+├── scripts/ # Python scripts for cleaning, transformation, clustering, modeling
 
 ├── tests/ # PyTest validation scripts
 
-├── dashboard/ # Power BI .pbix file or screenshots
+├── dashboard/ # Power BI.pbix file and screenshots
 
 └── README.md
 
