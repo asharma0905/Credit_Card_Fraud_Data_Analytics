@@ -40,13 +40,13 @@ Dashboard                     | Power BI with KPIs and visuals |
 
 ## Project Structure
 
+├── dashboard/ # Power BI.pbix file and screenshots
+
 ├── data/ # Raw and processed CSVs
 
 ├── scripts/ # Python scripts for cleaning, transformation, clustering, modeling
 
 ├── tests/ # PyTest validation scripts
-
-├── dashboard/ # Power BI.pbix file and screenshots
 
 └── README.md
 
