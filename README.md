@@ -1,6 +1,6 @@
 # Credit Card Fraud Data Analytics Project
 ## Introduction
-Welcome to the Github repository of a Credit Card Fraud Detection Project which involves the following workflow:
+Welcome to the Github repository of an end-to-end data analytics project simulating a real-world fraud detection pipeline which involves the following workflow:
 - Procurement of Dataset 
 - Augmenting Dataset 
 - Data cleaning 
@@ -11,16 +11,16 @@ Welcome to the Github repository of a Credit Card Fraud Detection Project which 
 - Data Automation
 - Dashboarding
 
-An end-to-end data analytics project simulating a real-world fraud detection pipeline using SQL, Python, and Power BI and the workflow includes data ingestion, cleaning, feature engineering, unsupervised clustering, anomaly detection using Isolation Forest, and a final interactive dashboard as mentioned above. Thus, it covers all the steps in the Data Analytics lifecycle process from a raw unprocessed dataset to final cleaned data with appended model outputs and reporting through visualizations and extracted insights.
+Thus, it covers all the steps in the Data Analytics lifecycle process from a raw unprocessed dataset to final cleaned data with appended model outputs and reporting through visualizations and extracted insights.
 
 ## Tech Stack
 
 - **Data Source**: Open-source credit card transaction dataset (with fraud labels)
 - **Data Storage**: AWS S3
 - **Query Layer**: AWS Athena (SQL)
-- **Processing**: Python (pandas, numpy, seaborn, scikit-learn)
+- **Processing/Feature Engineering**: Python (pandas, numpy, seaborn, scikit-learn)
 - **Clustering**: K-Means
-- **Outlier Detection**: Isolation Forest (unsupervised model) trained with multiple combinations of dataset sizes and number of estimators for optimal performance.
+- **Anomaly Detection**: Isolation Forest (unsupervised model) trained with multiple combinations of dataset sizes and number of estimators for optimal performance.
 - **Validation**: PyTest for pipeline unit testing
 - **Automation**: AWS Glue ETL, AWS Cloudwatch
 - **Dashboarding**: Power BI
