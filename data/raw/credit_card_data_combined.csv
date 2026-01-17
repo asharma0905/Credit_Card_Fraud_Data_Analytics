@@ -1,0 +1,1001 @@
+transaction_id,transaction_datetime,transaction_amount,merchant_category,transaction_type,entry_mode,transaction_city,transaction_state,transaction_country,currency_code,is_international,is_fraud,cardholder_age,cardholder_gender,is_online,approval_status,merchant_name
+TXN000001,2022-01-14T09:37:21,37.18,grocery,purchase,chip,New York,NY,USA,USD,FALSE,FALSE,31,female,FALSE,approved,Sunshine Travel
+TXN000002,2022-02-10T15:22:45,12.95,coffee_shop,purchase,contactless,San Francisco,CA,USA,USD,FALSE,FALSE,24,male,FALSE,approved,LuxuryAuto
+TXN000003,2022-03-19T21:37:08,243.67,electronics,purchase,online,Chicago,IL,USA,USD,FALSE,FALSE,29,female,FALSE,approved,QuickMart
+TXN000004,2022-04-07T18:11:43,5921,travel,purchase,online,London,,GBR,GBP,TRUE,TRUE,54,male,FALSE,declined,SkyTravel
+TXN000005,2022-05-12T13:02:22,61.2,fast_food,purchase,contactless,Austin,TX,USA,USD,FALSE,FALSE,22,female,TRUE,approved,BookNest
+TXN000006,2022-06-03T16:44:11,14.89,public_transport,purchase,contactless,Boston,MA,USA,USD,FALSE,FALSE,19,male,FALSE,approved,GiftWorld
+TXN000007,2022-07-15T08:05:52,1100,jewelry,purchase,manual,Zurich,,CHE,CHF,TRUE,TRUE,38,female,TRUE,declined,CryptoExchange
+TXN000008,2022-08-21T22:55:35,19.49,books,purchase,chip,Seattle,WA,USA,USD,FALSE,FALSE,29,female,TRUE,approved,ElectroZone
+TXN000009,2022-09-30T11:26:00,256.71,electronics,purchase,online,Los Angeles,CA,USA,USD,FALSE,FALSE,33,male,FALSE,approved,LuxuryAuto
+TXN000010,2022-10-18T17:45:16,8.15,coffee_shop,purchase,contactless,Houston,TX,USA,USD,FALSE,FALSE,26,female,FALSE,approved,FuelExpress
+TXN000011,2022-11-05T10:12:29,47,fast_food,purchase,swipe,Atlanta,GA,USA,USD,FALSE,FALSE,21,male,FALSE,approved,ElectroZone
+TXN000012,2022-12-25T13:35:08,25.99,books,purchase,chip,Philadelphia,PA,USA,USD,FALSE,FALSE,23,female,FALSE,approved,ElectroZone
+TXN000013,2023-01-09T20:55:17,4000,luxury_goods,purchase,manual,Dubai,,ARE,AED,TRUE,TRUE,47,male,FALSE,declined,Sunshine Travel
+TXN000014,2023-02-14T08:48:23,13.35,public_transport,purchase,contactless,Paris,,FRA,EUR,TRUE,FALSE,19,male,TRUE,approved,Sunshine Travel
+TXN000015,2023-03-22T19:36:43,86.5,pharmacy,purchase,swipe,Miami,FL,USA,USD,FALSE,FALSE,62,female,TRUE,approved,ATMWithdrawal
+TXN000016,2023-04-05T06:59:15,31.75,grocery,purchase,chip,Dallas,TX,USA,USD,FALSE,FALSE,47,female,TRUE,approved,FashionBay
+TXN000017,2023-05-16T16:44:19,129.99,clothing,purchase,online,San Diego,CA,USA,USD,FALSE,FALSE,39,female,TRUE,approved,ElectroZone
+TXN000018,2023-06-28T03:30:02,25000,automobile,purchase,manual,Tokyo,,JPN,JPY,TRUE,TRUE,66,other,FALSE,declined,ATM Network
+TXN000019,2023-07-03T12:13:57,18.99,coffee_shop,purchase,online,Denver,CO,USA,USD,FALSE,FALSE,23,male,FALSE,approved,EdgeCaseStore
+TXN000020,2023-08-13T15:23:47,990,electronics,purchase,online,Toronto,,CAN,CAD,TRUE,FALSE,31,female,FALSE,approved,SkyTravel
+TXN000021,2023-09-27T19:01:06,15000,real_estate,transfer,manual,Los Angeles,CA,USA,USD,FALSE,TRUE,120,unknown,TRUE,declined,LuxuryAuto
+TXN000022,2023-10-18T04:46:34,55.75,electronics,refund,chip,Chicago,IL,USA,USD,FALSE,FALSE,29,female,FALSE,approved,QuickMart
+TXN000023,2023-11-11T09:44:20,32.99,grocery,purchase,chip,New York,NY,USA,USD,FALSE,FALSE,31,female,FALSE,approved,CryptoExchange
+TXN000024,2023-12-29T23:32:18,75,pharmacy,purchase,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,52,male,FALSE,approved,FuelExpress
+TXN000025,2024-01-23T16:18:53,19.99,fast_food,purchase,chip,Columbus,OH,USA,USD,FALSE,FALSE,31,male,FALSE,approved,GiftWorld
+TXN000026,2024-02-07T12:32:01,3.5,coffee_shop,purchase,contactless,Denver,CO,USA,USD,FALSE,FALSE,23,male,FALSE,pending,EdgeCaseStore
+TXN000027,2024-03-12T19:53:09,120,auto_services,payment,chip,Dallas,TX,USA,USD,FALSE,FALSE,47,female,TRUE,approved,ATM Network
+TXN000028,2024-04-17T06:27:51,300000,luxury_goods,purchase,manual,Paris,,FRA,EUR,TRUE,TRUE,58,female,FALSE,declined,ElectroZone
+TXN000029,2024-05-21T14:11:31,18,clothing,purchase,online,San Jose,CA,USA,USD,FALSE,FALSE,28,female,FALSE,approved,EdgeCaseStore
+TXN000030,2024-06-15T12:09:18,700,travel,purchase,online,Osaka,,JPN,JPY,TRUE,FALSE,66,other,FALSE,approved,QuickMart
+TXN000031,2024-07-19T20:10:13,25,books,purchase,chip,Charlotte,NC,USA,USD,FALSE,FALSE,34,female,TRUE,approved,LuxuryAuto
+TXN000032,2024-08-22T11:23:37,9.99,coffee_shop,purchase,contactless,Los Angeles,CA,USA,USD,FALSE,FALSE,120,unknown,TRUE,approved,LuxuryAuto
+TXN000033,2024-09-27T22:12:27,54.99,clothing,purchase,chip,Dallas,TX,USA,USD,FALSE,FALSE,43,male,FALSE,approved,FashionBay
+TXN000034,2024-10-10T13:15:41,350,furniture,purchase,online,Seattle,WA,USA,USD,FALSE,FALSE,45,female,FALSE,approved,ElectroZone
+TXN000035,2024-11-04T09:53:20,2000,jewelry,purchase,manual,Geneva,,CHE,CHF,TRUE,TRUE,61,male,FALSE,declined,CryptoExchange
+TXN000036,2024-12-10T15:45:37,50,pharmacy,purchase,swipe,New York,NY,USA,USD,FALSE,FALSE,31,female,TRUE,approved,SkyTravel
+TXN000037,2022-01-15T17:21:22,490,electronics,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,41,female,TRUE,approved,QuickMart
+TXN000038,2022-02-23T10:50:41,8.25,fast_food,purchase,contactless,Orlando,FL,USA,USD,FALSE,FALSE,62,female,FALSE,approved,ATM Withdrawal
+TXN000039,2022-03-11T14:31:18,10.75,public_transport,purchase,contactless,London,,GBR,GBP,TRUE,FALSE,21,unknown,TRUE,approved,Sunshine Travel
+TXN000040,2022-04-30T21:20:56,52.6,books,purchase,online,Paris,,FRA,EUR,TRUE,FALSE,27,female,TRUE,approved,FashionBay
+TXN000041,2022-05-19T10:49:34,19.8,coffee_shop,purchase,contactless,Boston,MA,USA,USD,FALSE,FALSE,19,male,FALSE,approved,GiftWorld
+TXN000042,2022-06-21T16:16:44,330,auto_services,payment,chip,Houston,TX,USA,USD,FALSE,FALSE,31,male,TRUE,approved,FarmFresh
+TXN000043,2022-07-31T07:30:45,1700,luxury_goods,purchase,manual,Dubai,,ARE,AED,TRUE,TRUE,47,male,FALSE,declined,FashionBay
+TXN000044,2022-08-22T19:18:28,11.5,books,purchase,chip,Los Angeles,CA,USA,USD,FALSE,FALSE,28,female,FALSE,pending,LuxuryAuto
+TXN000045,2022-09-25T08:41:36,400,electronics,purchase,online,Berlin,,DEU,EUR,TRUE,FALSE,42,male,TRUE,approved,Sunshine Travel
+TXN000046,2022-10-18T14:33:52,9.99,clothing,purchase,chip,Las Vegas,NV,USA,USD,FALSE,FALSE,37,male,FALSE,approved,FuelExpress
+TXN000047,2022-11-27T20:41:18,85,charity,payment,online,,,CAN,CAD,TRUE,FALSE,51,other,FALSE,approved,SkyTravel
+TXN000048,2022-12-03T01:45:12,17.45,coffee_shop,purchase,contactless,Phoenix,AZ,USA,USD,FALSE,FALSE,52,male,FALSE,approved,GiftWorld
+TXN000049,2023-01-18T16:46:42,3.99,public_transport,purchase,contactless,Singapore,,SGP,SGD,TRUE,FALSE,22,female,TRUE,pending,QuickMart
+TXN000050,2023-02-25T13:40:00,999999.99,real_estate,transfer,manual,San Francisco,CA,USA,USD,FALSE,TRUE,71,male,FALSE,declined,LuxuryAuto
+TXN000051,2024-03-10T09:14:22,52.75,electronics,purchase,chip,Houston,TX,USA,USD,FALSE,FALSE,32,female,FALSE,pending,FarmFresh
+TXN000052,2023-12-25T21:29:02,13.49,coffee_shop,purchase,contactless,Boston,MA,USA,USD,FALSE,FALSE,24,male,FALSE,approved,BookNest
+TXN000053,2024-04-11T15:11:37,2500,jewelry,purchase,manual,Dubai,,ARE,AED,TRUE,TRUE,56,female,FALSE,declined,GiftWorld
+TXN000054,2022-08-18T18:46:10,10,fast_food,purchase,contactless,Chicago,IL,USA,USD,FALSE,FALSE,28,male,FALSE,approved,QuickMart
+TXN000055,2022-09-17T12:03:45,239.89,electronics,purchase,online,Dallas,TX,USA,USD,FALSE,FALSE,33,female,FALSE,approved,ElectroZone
+TXN000056,2023-04-13T14:12:34,25.5,books,purchase,chip,San Francisco,CA,USA,USD,FALSE,FALSE,22,female,FALSE,approved,LuxuryAuto
+TXN000057,2024-01-20T19:41:00,4300,luxury_goods,purchase,manual,Zurich,,CHE,CHF,TRUE,TRUE,62,other,FALSE,declined,CryptoExchange
+TXN000058,2022-07-22T08:19:07,6.75,coffee_shop,purchase,online,Philadelphia,PA,USA,USD,FALSE,FALSE,26,female,FALSE,approved,GiftWorld
+TXN000059,2023-03-30T10:55:56,72.35,grocery,purchase,chip,Los Angeles,CA,USA,USD,FALSE,FALSE,37,male,FALSE,approved,LuxuryAuto
+TXN000060,2022-10-09T22:20:17,18000,real_estate,transfer,online,London,,GBR,GBP,TRUE,TRUE,65,male,FALSE,declined,SkyTravel
+TXN000061,2024-02-14T13:04:12,315.22,clothing,purchase,chip,Seattle,WA,USA,USD,FALSE,FALSE,32,female,TRUE,approved,TinyCafe
+TXN000062,2023-11-07T16:22:41,48,public_transport,purchase,contactless,New York,NY,USA,USD,FALSE,FALSE,23,female,TRUE,approved,FashionBay
+TXN000063,2023-05-18T12:33:51,312.6,furniture,purchase,online,Atlanta,GA,USA,USD,FALSE,FALSE,45,male,FALSE,approved,ElectroZone
+TXN000064,2022-12-02T07:15:58,8.99,fast_food,purchase,contactless,Austin,TX,USA,USD,FALSE,FALSE,21,male,FALSE,pending,BookNest
+TXN000065,2023-08-25T12:41:01,5.5,books,purchase,chip,Denver,CO,USA,USD,FALSE,FALSE,22,female,FALSE,approved,EdgeCaseStore
+TXN000066,2022-03-08T11:05:33,3700,travel,purchase,online,Paris,,FRA,EUR,TRUE,TRUE,54,female,TRUE,declined,CryptoExchange
+TXN000067,2024-01-09T20:35:00,11.65,coffee_shop,purchase,online,Miami,FL,USA,USD,FALSE,FALSE,26,female,FALSE,approved,SkyTravel
+TXN000068,2022-07-31T06:37:05,68.99,grocery,purchase,chip,Phoenix,AZ,USA,USD,FALSE,FALSE,37,male,FALSE,approved,ElectroZone
+TXN000069,2023-02-17T18:17:41,20,public_transport,purchase,contactless,Philadelphia,PA,USA,USD,FALSE,FALSE,23,female,FALSE,pending,FarmFresh
+TXN000070,2023-09-28T11:44:22,212,auto_services,purchase,swipe,Detroit,MI,USA,USD,FALSE,FALSE,24,male,TRUE,approved,TinyCafe
+TXN000071,2022-02-13T09:25:00,100000,real_estate,transfer,manual,Sydney,,AUS,AUD,TRUE,TRUE,59,male,FALSE,declined,Sunshine Travel
+TXN000072,2023-06-10T10:30:10,19.99,fast_food,purchase,contactless,Seattle,WA,USA,USD,FALSE,FALSE,21,male,FALSE,approved,ATM Network
+TXN000073,2022-04-17T11:04:59,150.45,clothing,purchase,chip,Portland,OR,USA,USD,FALSE,FALSE,32,female,TRUE,approved,SkyTravel
+TXN000074,2024-04-03T20:15:54,7999.99,automobile,purchase,online,Berlin,,DEU,EUR,TRUE,TRUE,41,male,FALSE,declined,Sunshine Travel
+TXN000075,2022-06-20T18:13:23,23,books,purchase,chip,San Diego,CA,USA,USD,FALSE,FALSE,22,female,TRUE,approved,FashionBay
+TXN000076,2023-02-17T20:22:18,41.2,coffee_shop,purchase,online,San Jose,CA,USA,USD,FALSE,FALSE,26,female,FALSE,approved,EdgeCaseStore
+TXN000077,2024-03-18T09:05:34,999999.99,jewelry,purchase,manual,Geneva,,CHE,CHF,TRUE,TRUE,120,unknown,FALSE,declined,CryptoExchange
+TXN000078,2023-10-16T08:43:22,33.5,pharmacy,purchase,chip,Minneapolis,MN,USA,USD,FALSE,FALSE,28,male,FALSE,approved,FashionBay
+TXN000079,2022-09-19T14:27:55,17,public_transport,purchase,contactless,Boston,MA,USA,USD,FALSE,FALSE,23,female,TRUE,approved,BookNest
+TXN000080,2024-02-23T13:15:42,88,charity,payment,online,,,CAN,CAD,TRUE,FALSE,53,male,TRUE,approved,Sunshine Travel
+TXN000081,2023-11-05T17:07:08,389.5,electronics,purchase,chip,San Antonio,TX,USA,USD,FALSE,FALSE,33,female,FALSE,pending,EdgeCaseStore
+TXN000082,2022-12-28T13:29:10,18.5,public_transport,purchase,contactless,Denver,CO,USA,USD,FALSE,FALSE,23,female,FALSE,pending,ElectroZone
+TXN000083,2023-06-12T15:33:43,10.99,fast_food,purchase,online,Los Angeles,CA,USA,USD,FALSE,FALSE,37,male,FALSE,approved,LuxuryAuto
+TXN000084,2022-07-04T17:57:05,420,travel,purchase,online,Tokyo,,JPN,JPY,TRUE,FALSE,51,female,TRUE,approved,BookNest
+TXN000085,2023-07-18T08:08:59,44.99,pharmacy,purchase,swipe,Nashville,TN,USA,USD,FALSE,FALSE,63,male,TRUE,approved,FashionBay
+TXN000086,2022-11-12T13:49:51,35,fast_food,purchase,chip,Seattle,WA,USA,USD,FALSE,FALSE,21,male,FALSE,approved,ATM Network
+TXN000087,2023-05-22T22:22:45,8,books,purchase,online,San Francisco,CA,USA,USD,FALSE,FALSE,22,female,FALSE,approved,TinyCafe
+TXN000088,2024-01-02T18:42:18,92.5,furniture,purchase,swipe,Portland,OR,USA,USD,FALSE,FALSE,45,male,TRUE,approved,TinyCafe
+TXN000089,2023-04-10T09:24:00,18.25,coffee_shop,purchase,contactless,,,SGP,SGD,TRUE,FALSE,38,other,TRUE,approved,CryptoExchange
+TXN000090,2022-06-06T11:54:36,62.3,auto_services,purchase,swipe,Dallas,TX,USA,USD,FALSE,FALSE,27,male,FALSE,approved,ATM Network
+TXN000091,2023-03-03T20:10:12,15,grocery,purchase,online,Montreal,,CAN,CAD,TRUE,FALSE,53,male,FALSE,approved,SkyTravel
+TXN000092,2024-03-03T17:17:23,0.99,books,refund,online,San Diego,CA,USA,USD,FALSE,FALSE,22,female,FALSE,approved,FashionBay
+TXN000093,2022-05-27T15:12:59,75.3,pharmacy,purchase,swipe,Houston,TX,USA,USD,FALSE,FALSE,63,female,FALSE,approved,FuelExpress
+TXN000094,2023-09-12T10:20:59,589.99,luxury_goods,purchase,online,New York,NY,USA,USD,FALSE,FALSE,32,female,FALSE,approved,CryptoExchange
+TXN000095,2024-01-27T14:03:12,12.99,fast_food,purchase,chip,Austin,TX,USA,USD,FALSE,FALSE,21,male,FALSE,approved,BookNest
+TXN000096,2023-08-09T19:55:20,240,furniture,purchase,chip,,,MEX,MXN,TRUE,FALSE,29,male,FALSE,approved,Sunshine Travel
+TXN000097,2022-08-14T13:10:41,27,coffee_shop,purchase,contactless,Los Angeles,CA,USA,USD,FALSE,FALSE,26,female,FALSE,approved,LuxuryAuto
+TXN000098,2024-03-11T16:49:03,17.75,books,purchase,online,Boston,MA,USA,USD,FALSE,FALSE,24,male,TRUE,approved,GiftWorld
+TXN000099,2022-05-16T12:29:51,8.5,coffee_shop,purchase,chip,Austin,TX,USA,USD,FALSE,FALSE,26,female,TRUE,approved,ATMWithdrawal
+TXN000100,2023-06-29T09:09:43,5000,luxury_goods,purchase,manual,Dubai,,ARE,AED,TRUE,TRUE,49,female,FALSE,declined,GiftWorld
+TXN000151,2023-07-12T14:43:30,22.47,coffee_shop,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,29,female,FALSE,pending,FarmFresh
+TXN000152,2024-01-10T10:32:09,173.58,electronics,purchase,online,San Jose,CA,USA,USD,FALSE,FALSE,38,male,FALSE,approved,ATMWithdrawal
+TXN000153,2022-05-19T18:54:11,45.12,grocery,purchase,swipe,Houston,TX,USA,USD,FALSE,FALSE,44,male,TRUE,approved,FuelExpress
+TXN000154,2023-09-04T20:14:50,8.95,fast_food,purchase,contactless,Seattle,WA,USA,USD,FALSE,FALSE,23,male,FALSE,approved,FarmFresh
+TXN000155,2024-02-21T13:20:18,1500.75,luxury_goods,purchase,manual,Zurich,,CHE,CHF,TRUE,TRUE,23,male,FALSE,declined,CryptoExchange
+TXN000156,2022-11-16T16:42:03,12.2,books,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,35,female,FALSE,approved,GiftWorld
+TXN000157,2022-02-03T09:16:57,239.99,electronics,purchase,online,London,,GBR,GBP,TRUE,FALSE,41,female,TRUE,approved,Sunshine Travel
+TXN000158,2023-05-28T23:30:00,72.5,clothing,purchase,chip,New York,NY,USA,USD,FALSE,FALSE,41,female,FALSE,approved,CryptoExchange
+TXN000159,2023-03-01T17:05:14,9.99,coffee_shop,purchase,contactless,Los Angeles,CA,USA,USD,FALSE,FALSE,26,female,TRUE,approved,LuxuryAuto
+TXN000160,2022-08-07T14:45:25,13000.5,jewelry,purchase,manual,Dubai,,ARE,AED,TRUE,TRUE,26,female,FALSE,declined,ATM Network
+TXN000161,2024-04-16T11:21:55,3.59,fast_food,purchase,contactless,Miami,FL,USA,USD,FALSE,FALSE,21,male,TRUE,approved,FuelExpress
+TXN000162,2022-12-31T19:12:06,49.99,books,purchase,chip,Austin,TX,USA,USD,FALSE,FALSE,32,female,FALSE,approved,BookNest
+TXN000163,2023-08-09T07:45:34,4200,travel,purchase,online,Paris,,FRA,EUR,TRUE,TRUE,32,female,FALSE,declined,ElectroZone
+TXN000164,2023-11-24T12:35:10,127.3,electronics,purchase,online,Dallas,TX,USA,USD,FALSE,FALSE,35,female,FALSE,approved,FashionBay
+TXN000165,2022-04-18T15:29:07,37,public_transport,purchase,contactless,San Francisco,CA,USA,USD,FALSE,FALSE,24,male,FALSE,approved,CryptoExchange
+TXN000166,2022-10-30T21:14:52,5.5,coffee_shop,purchase,chip,Portland,OR,USA,USD,FALSE,FALSE,28,female,TRUE,approved,TinyCafe
+TXN000167,2023-02-18T05:17:44,197.99,clothing,purchase,online,Tokyo,,JPN,JPY,TRUE,FALSE,28,female,FALSE,approved,TinyCafe
+TXN000168,2024-03-11T09:23:21,349.99,electronics,purchase,swipe,Denver,CO,USA,USD,FALSE,FALSE,36,male,FALSE,approved,EdgeCaseStore
+TXN000169,2022-06-15T12:12:12,15.25,pharmacy,purchase,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,61,male,TRUE,approved,GiftWorld
+TXN000170,2023-12-01T16:46:58,2750,luxury_goods,purchase,manual,Paris,,FRA,EUR,TRUE,TRUE,61,male,FALSE,declined,QuickMart
+TXN000171,2024-04-07T22:15:00,9.5,fast_food,purchase,contactless,San Diego,CA,USA,USD,FALSE,FALSE,38,male,FALSE,approved,FashionBay
+TXN000172,2022-09-20T08:02:47,6.89,coffee_shop,purchase,chip,Dallas,TX,USA,USD,FALSE,FALSE,35,female,FALSE,approved,FashionBay
+TXN000173,2023-06-25T13:56:19,94.99,grocery,purchase,swipe,San Antonio,TX,USA,USD,FALSE,FALSE,50,female,FALSE,approved,Sunshine Travel
+TXN000174,2024-03-13T19:17:22,199.99,electronics,purchase,online,Austin,TX,USA,USD,FALSE,FALSE,34,female,FALSE,approved,ATMWithdrawal
+TXN000175,2022-07-29T11:55:48,35000,real_estate,transfer,manual,Toronto,,CAN,CAD,TRUE,TRUE,58,unknown,FALSE,declined,SkyTravel
+TXN000176,2022-01-18T14:09:53,58.7,auto_services,purchase,swipe,Detroit,MI,USA,USD,FALSE,FALSE,47,male,TRUE,approved,FashionBay
+TXN000177,2023-10-01T08:41:11,499.99,furniture,purchase,chip,Dallas,TX,USA,USD,FALSE,FALSE,58,unknown,FALSE,approved,ATM Network
+TXN000178,2024-03-29T20:03:40,23.5,books,purchase,chip,Denver,CO,USA,USD,FALSE,FALSE,47,male,FALSE,approved,EdgeCaseStore
+TXN000179,2023-09-23T15:28:44,129,pharmacy,purchase,online,New York,NY,USA,USD,FALSE,FALSE,61,female,FALSE,approved,ATM Network
+TXN000180,2022-03-16T17:19:00,5.25,coffee_shop,purchase,contactless,,,GBR,GBP,TRUE,FALSE,29,female,FALSE,approved,SkyTravel
+TXN000181,2022-07-01T15:45:12,70,grocery,purchase,chip,Houston,TX,USA,USD,FALSE,FALSE,45,male,FALSE,approved,FuelExpress
+TXN000182,2023-05-24T07:33:44,250,travel,purchase,online,Berlin,,DEU,EUR,TRUE,FALSE,45,male,FALSE,approved,Sunshine Travel
+TXN000183,2022-08-30T23:59:59,17.85,fast_food,purchase,swipe,Chicago,IL,USA,USD,FALSE,FALSE,24,male,FALSE,pending,QuickMart
+TXN000184,2024-04-02T10:10:10,134.99,books,purchase,online,Austin,TX,USA,USD,FALSE,FALSE,35,female,FALSE,pending,BookNest
+TXN000185,2023-07-16T19:05:22,6500,automobile,payment,manual,Miami,FL,USA,USD,FALSE,TRUE,61,female,FALSE,declined,Sunshine Travel
+TXN000186,2022-05-18T06:28:50,18.6,charity,payment,chip,Seattle,WA,USA,USD,FALSE,FALSE,35,female,TRUE,approved,BookNest
+TXN000187,2023-03-03T04:14:13,0.01,public_transport,purchase,contactless,,,AUS,AUD,TRUE,FALSE,28,female,TRUE,approved,Sunshine Travel
+TXN000188,2024-02-23T13:45:22,222.89,furniture,purchase,online,,,SGP,SGD,TRUE,FALSE,34,female,FALSE,approved,FarmFresh
+TXN000189,2023-05-02T11:11:11,22.45,coffee_shop,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,35,female,TRUE,approved,BookNest
+TXN000190,2022-10-11T12:32:00,98.8,clothing,purchase,online,Los Angeles,CA,USA,USD,FALSE,FALSE,26,female,FALSE,approved,LuxuryAuto
+TXN000191,2024-02-09T18:19:44,86,auto_services,purchase,chip,Atlanta,GA,USA,USD,FALSE,FALSE,45,male,FALSE,approved,FuelExpress
+TXN000192,2023-11-19T09:12:44,405.5,electronics,purchase,online,,,AUS,AUD,TRUE,FALSE,36,male,TRUE,approved,Sunshine Travel
+TXN000193,2022-06-28T08:08:08,7.75,fast_food,purchase,swipe,Philadelphia,PA,USA,USD,FALSE,FALSE,24,male,FALSE,approved,ATM Network
+TXN000194,2024-03-18T15:25:35,120000,real_estate,transfer,manual,,,SGP,SGD,TRUE,TRUE,34,female,FALSE,declined,Sunshine Travel
+TXN000195,2022-09-12T22:21:00,0.5,public_transport,purchase,contactless,London,,GBR,GBP,TRUE,FALSE,24,male,FALSE,approved,Sunshine Travel
+TXN000196,2023-04-17T19:59:54,999999.99,luxury_goods,purchase,manual,Geneva,,CHE,CHF,TRUE,TRUE,120,other,TRUE,declined,CryptoExchange
+TXN000197,2022-12-05T12:00:00,18.99,books,purchase,chip,San Francisco,CA,USA,USD,FALSE,FALSE,120,other,TRUE,approved,TinyCafe
+TXN000198,2023-08-08T09:21:13,150.99,clothing,purchase,swipe,Boston,MA,USA,USD,FALSE,FALSE,50,female,FALSE,approved,TinyCafe
+TXN000199,2024-01-14T06:45:30,3.25,coffee_shop,purchase,contactless,,,MEX,MXN,TRUE,FALSE,38,male,FALSE,approved,CryptoExchange
+TXN000200,2022-11-24T13:31:44,88.98,clothing,purchase,chip,San Diego,CA,USA,USD,FALSE,FALSE,29,female,FALSE,approved,ElectroZone
+TXN000151,2024-03-12T09:15:27,21.99,coffee_shop,purchase,chip,Toronto,,CAN,CAD,TRUE,FALSE,32,male,TRUE,approved,SkyTravel
+TXN000152,2023-09-27T15:05:17,43.5,books,purchase,contactless,Boston,MA,USA,USD,FALSE,FALSE,23,female,FALSE,approved,GiftWorld
+TXN000153,2023-11-02T08:23:55,315.12,electronics,purchase,online,London,,GBR,GBP,TRUE,FALSE,36,male,TRUE,approved,Sunshine Travel
+TXN000154,2022-07-18T19:17:48,10,fast_food,purchase,contactless,Montreal,,CAN,CAD,TRUE,FALSE,29,female,TRUE,pending,SkyTravel
+TXN000155,2022-12-01T14:54:16,97.8,clothing,purchase,chip,Dallas,TX,USA,USD,FALSE,FALSE,27,female,FALSE,approved,FashionBay
+TXN000156,2023-06-29T21:02:33,2300.5,jewelry,purchase,manual,Zurich,,CHE,CHF,TRUE,TRUE,59,other,FALSE,declined,CryptoExchange
+TXN000157,2024-01-24T12:12:07,500000,real_estate,transfer,manual,Dubai,,ARE,AED,TRUE,TRUE,47,unknown,TRUE,declined,ATM Withdrawal
+TXN000158,2022-03-12T17:27:04,12.75,pharmacy,purchase,chip,Seattle,WA,USA,USD,FALSE,FALSE,60,female,FALSE,approved,BookNest
+TXN000159,2023-01-18T07:58:15,8.99,public_transport,purchase,contactless,Chicago,IL,USA,USD,FALSE,FALSE,19,male,TRUE,approved,QuickMart
+TXN000160,2024-06-07T22:51:39,120,grocery,purchase,chip,Los Angeles,CA,USA,USD,FALSE,FALSE,29,female,FALSE,approved,ATM Network
+TXN000161,2024-02-19T11:11:04,4500.22,luxury_goods,purchase,manual,Paris,,FRA,EUR,TRUE,TRUE,55,female,FALSE,declined,EdgeCaseStore
+TXN000162,2022-08-25T10:28:54,5.5,fast_food,purchase,contactless,Austin,TX,USA,USD,FALSE,FALSE,22,male,TRUE,approved,ATMWithdrawal
+TXN000163,2024-02-15T20:43:13,78.25,pharmacy,purchase,swipe,San Diego,CA,USA,USD,FALSE,FALSE,61,female,FALSE,approved,FashionBay
+TXN000164,2023-04-21T13:48:51,35,books,purchase,chip,Portland,OR,USA,USD,FALSE,FALSE,27,other,FALSE,approved,SkyTravel
+TXN000165,2022-11-11T06:31:14,400,auto_services,payment,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,38,male,FALSE,approved,GiftWorld
+TXN000166,2023-07-03T18:21:45,850.25,pharmacy,refund,chip,Seattle,WA,USA,USD,FALSE,FALSE,60,female,FALSE,approved,ATM Network
+TXN000167,2024-01-30T09:18:12,13.6,public_transport,purchase,online,San Francisco,CA,USA,USD,FALSE,FALSE,25,unknown,TRUE,approved,TinyCafe
+TXN000168,2022-10-15T16:37:45,3250.66,luxury_goods,purchase,manual,Geneva,,CHE,CHF,TRUE,TRUE,50,female,TRUE,declined,CryptoExchange
+TXN000169,2024-05-08T11:09:36,14.99,coffee_shop,purchase,contactless,Toronto,,CAN,CAD,TRUE,FALSE,32,male,TRUE,approved,SkyTravel
+TXN000170,2022-08-04T07:22:18,670,electronics,purchase,online,Chicago,IL,USA,USD,FALSE,FALSE,41,female,FALSE,approved,QuickMart
+TXN000171,2024-04-18T20:48:57,210.45,electronics,purchase,chip,New York,NY,USA,USD,FALSE,FALSE,37,female,FALSE,approved,SkyTravel
+TXN000172,2022-12-16T17:42:08,99.99,grocery,purchase,chip,Vancouver,,CAN,CAD,TRUE,FALSE,52,female,FALSE,approved,SkyTravel
+TXN000173,2023-08-09T13:13:19,15000,automobile,purchase,online,Berlin,,DEU,EUR,TRUE,TRUE,44,male,FALSE,declined,SkyTravel
+TXN000174,2022-05-27T05:01:44,60.75,furniture,purchase,chip,Houston,TX,USA,USD,FALSE,FALSE,28,female,TRUE,approved,GiftWorld
+TXN000175,2024-05-25T14:33:09,249.99,clothing,purchase,chip,Miami,FL,USA,USD,FALSE,FALSE,26,female,FALSE,approved,Sunshine Travel
+TXN000176,2023-02-06T10:27:02,13,public_transport,purchase,contactless,Boston,MA,USA,USD,FALSE,FALSE,23,female,FALSE,approved,BookNest
+TXN000177,2022-06-13T16:19:29,80,books,purchase,swipe,Osaka,,JPN,JPY,TRUE,FALSE,48,male,FALSE,approved,SkyTravel
+TXN000178,2023-10-19T18:18:10,20,electronics,purchase,chip,Atlanta,GA,USA,USD,FALSE,FALSE,36,male,FALSE,approved,ElectroZone
+TXN000179,2023-09-29T11:35:41,14.75,coffee_shop,purchase,contactless,Montreal,,CAN,CAD,TRUE,FALSE,32,male,FALSE,approved,SkyTravel
+TXN000180,2022-07-30T20:13:53,340,auto_services,payment,swipe,San Antonio,TX,USA,USD,FALSE,FALSE,38,male,TRUE,approved,ElectroZone
+TXN000181,2024-05-10T09:24:21,60,auto_services,purchase,chip,Dallas,TX,USA,USD,FALSE,FALSE,42,male,FALSE,approved,ElectroZone
+TXN000182,2022-08-20T13:00:49,120000,real_estate,transfer,manual,Zurich,,CHE,CHF,TRUE,TRUE,47,unknown,TRUE,declined,CryptoExchange
+TXN000183,2023-11-11T16:53:02,17,furniture,purchase,chip,Houston,TX,USA,USD,FALSE,FALSE,28,female,TRUE,approved,FuelExpress
+TXN000184,2024-03-24T08:41:17,4999.99,real_estate,transfer,manual,Dubai,,ARE,AED,TRUE,TRUE,47,unknown,FALSE,declined,Sunshine Travel
+TXN000185,2024-01-13T15:31:09,56.75,clothing,purchase,chip,Miami,FL,USA,USD,FALSE,FALSE,26,female,FALSE,approved,Sunshine Travel
+TXN000186,2022-02-12T12:43:47,7.5,grocery,purchase,chip,Vancouver,,CAN,CAD,TRUE,FALSE,52,female,FALSE,approved,SkyTravel
+TXN000187,2024-03-08T19:22:05,120.99,luxury_goods,purchase,manual,Paris,,FRA,EUR,TRUE,TRUE,55,female,TRUE,declined,EdgeCaseStore
+TXN000188,2023-03-15T13:18:17,8.25,pharmacy,purchase,chip,Seattle,WA,USA,USD,FALSE,FALSE,60,female,FALSE,approved,SkyTravel
+TXN000189,2022-09-19T14:44:29,37.89,fast_food,purchase,contactless,Montreal,,CAN,CAD,TRUE,FALSE,29,female,FALSE,approved,SkyTravel
+TXN000190,2023-10-24T10:10:55,14.25,coffee_shop,purchase,contactless,Toronto,,CAN,CAD,TRUE,FALSE,32,male,FALSE,approved,SkyTravel
+TXN000191,2022-10-10T14:29:08,2000,jewelry,purchase,manual,Zurich,,CHE,CHF,TRUE,TRUE,59,other,FALSE,declined,CryptoExchange
+TXN000192,2023-12-27T12:55:48,25.6,books,purchase,online,New York,NY,USA,USD,FALSE,FALSE,37,female,FALSE,pending,Sunshine Travel
+TXN000193,2024-01-07T19:56:23,40,grocery,purchase,chip,Vancouver,,CAN,CAD,TRUE,FALSE,52,female,TRUE,approved,SkyTravel
+TXN000194,2022-04-05T08:32:16,65,auto_services,payment,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,38,male,FALSE,approved,GiftWorld
+TXN000195,2023-05-29T21:43:10,17.5,public_transport,purchase,contactless,Chicago,IL,USA,USD,FALSE,FALSE,19,male,FALSE,approved,QuickMart
+TXN000196,2022-03-01T11:50:12,8.99,pharmacy,purchase,chip,Seattle,WA,USA,USD,FALSE,FALSE,60,female,FALSE,approved,FarmFresh
+TXN000197,2023-06-04T16:41:29,1000000,real_estate,transfer,manual,Dubai,,ARE,AED,TRUE,TRUE,47,unknown,FALSE,declined,FashionBay
+TXN000198,2022-05-22T13:39:41,15.25,coffee_shop,purchase,contactless,Toronto,,CAN,CAD,TRUE,FALSE,32,male,TRUE,approved,SkyTravel
+TXN000199,2023-07-11T17:17:59,199.99,fast_food,purchase,contactless,Montreal,,CAN,CAD,TRUE,FALSE,29,female,TRUE,approved,SkyTravel
+TXN000200,2022-12-05T07:14:32,9.99,public_transport,purchase,contactless,Chicago,IL,USA,USD,FALSE,FALSE,19,male,FALSE,approved,FuelExpress
+TXN000201,2023-11-06T11:22:46,50.5,public_transport,purchase,contactless,New York,NY,USA,USD,FALSE,FALSE,46,male,TRUE,approved,CryptoExchange
+TXN000202,2024-10-01T03:07:48,54.07,clothing,purchase,chip,Dallas,TX,USA,USD,FALSE,FALSE,44,male,FALSE,approved,ElectroZone
+TXN000203,2024-12-09T17:26:11,49.09,pharmacy,purchase,swipe,New York,NY,USA,USD,FALSE,FALSE,32,female,FALSE,approved,Sunshine Travel
+TXN000204,2023-02-17T22:56:21,40.55,coffee_shop,purchase,online,San Jose,CA,USA,USD,FALSE,FALSE,27,female,TRUE,approved,ElectroZone
+TXN000205,2023-10-20T09:37:05,63.46,electronics,refund,chip,Chicago,IL,USA,USD,FALSE,FALSE,29,female,TRUE,approved,QuickMart
+TXN000206,2023-07-20T10:35:33,42.93,pharmacy,purchase,swipe,Nashville,TN,USA,USD,FALSE,FALSE,54,male,TRUE,approved,ElectroZone
+TXN000207,2023-07-19T03:48:48,47.59,pharmacy,purchase,swipe,Nashville,TN,USA,USD,FALSE,FALSE,63,male,TRUE,approved,ATM Withdrawal
+TXN000208,2023-10-20T23:20:10,51.93,electronics,refund,chip,Chicago,IL,USA,USD,FALSE,FALSE,29,female,FALSE,approved,QuickMart
+TXN000209,2023-11-10T19:22:13,49.76,public_transport,purchase,contactless,New York,NY,USA,USD,FALSE,FALSE,23,female,FALSE,approved,CryptoExchange
+TXN000210,2022-11-05T11:18:47,44.04,fast_food,purchase,swipe,Atlanta,GA,USA,USD,FALSE,FALSE,22,male,TRUE,approved,FuelExpress
+TXN000211,2024-12-10T10:16:13,49.87,pharmacy,purchase,swipe,New York,NY,USA,USD,FALSE,FALSE,31,female,FALSE,approved,Sunshine Travel
+TXN000212,2024-03-09T07:21:38,51.1,electronics,purchase,chip,Houston,TX,USA,USD,FALSE,FALSE,31,female,FALSE,approved,FuelExpress
+TXN000213,2023-10-16T08:15:09,61.68,electronics,refund,chip,Chicago,IL,USA,USD,FALSE,FALSE,30,female,FALSE,approved,QuickMart
+TXN000214,2023-07-18T02:45:23,46.05,pharmacy,purchase,swipe,Nashville,TN,USA,USD,FALSE,FALSE,37,female,FALSE,approved,GiftWorld
+TXN000215,2023-04-20T15:49:27,31.59,books,purchase,chip,Houston,TX,USA,USD,FALSE,FALSE,36,male,FALSE,approved,GiftWorld
+TXN000216,2023-11-08T11:28:46,47.22,public_transport,purchase,contactless,New York,NY,USA,USD,FALSE,FALSE,24,female,TRUE,approved,CryptoExchange
+TXN000217,2023-10-16T02:22:35,52.4,electronics,refund,chip,Chicago,IL,USA,USD,FALSE,FALSE,26,female,FALSE,approved,QuickMart
+TXN000218,2024-03-07T12:30:48,50.3,electronics,purchase,chip,Houston,TX,USA,USD,FALSE,FALSE,26,male,FALSE,approved,FuelExpress
+TXN000219,2023-09-27T13:26:18,42.51,books,purchase,contactless,Boston,MA,USA,USD,FALSE,FALSE,23,female,FALSE,approved,GiftWorld
+TXN000220,2022-09-20T19:22:29,36.45,fast_food,purchase,contactless,Montreal,,CAN,CAD,TRUE,FALSE,38,male,FALSE,approved,SkyTravel
+TXN000221,2023-07-20T03:50:15,42.45,pharmacy,purchase,swipe,Nashville,TN,USA,USD,FALSE,FALSE,62,male,TRUE,pending,ElectroZone
+TXN000222,2024-01-05T15:34:34,36.89,grocery,purchase,chip,Vancouver,,FRA,EUR,TRUE,FALSE,52,female,TRUE,approved,QuickMart
+TXN000223,2022-11-07T08:23:03,49.16,fast_food,purchase,swipe,Atlanta,GA,USA,USD,FALSE,FALSE,24,female,FALSE,approved,ElectroZone
+TXN000224,2023-07-18T10:53:59,44.98,pharmacy,purchase,swipe,Toronto,,USA,USD,FALSE,FALSE,63,male,FALSE,approved,SkyTravel
+TXN000225,2024-09-27T21:06:20,55.67,clothing,purchase,chip,Dallas,TX,USA,USD,FALSE,FALSE,44,male,FALSE,approved,FashionBay
+TXN000226,2022-04-29T18:11:18,55.8,books,purchase,online,Paris,,FRA,EUR,TRUE,FALSE,27,female,FALSE,approved,ElectroZone
+TXN000227,2022-05-01T23:55:55,54.58,books,purchase,online,Paris,,FRA,EUR,TRUE,FALSE,27,female,TRUE,approved,ATM Network
+TXN000228,2023-10-16T01:42:46,54.61,electronics,refund,chip,Chicago,IL,USA,USD,FALSE,FALSE,30,female,FALSE,approved,FuelExpress
+TXN000229,2022-11-11T11:26:16,36.36,fast_food,purchase,chip,Seattle,WA,USA,USD,FALSE,FALSE,21,male,FALSE,approved,ATM Network
+TXN000230,2023-01-01T14:45:16,51.13,books,purchase,chip,Austin,TX,USA,USD,FALSE,FALSE,31,female,TRUE,approved,BookNest
+TXN000231,2024-08-20T07:02:54,8.61,coffee_shop,purchase,contactless,Los Angeles,CA,USA,USD,FALSE,FALSE,120,unknown,TRUE,approved,LuxuryAuto
+TXN000232,2022-03-09T18:29:18,10.16,public_transport,purchase,contactless,London,,GBR,GBP,TRUE,FALSE,22,male,FALSE,approved,Sunshine Travel
+TXN000233,2024-01-26T19:41:36,12.32,fast_food,purchase,chip,Austin,TX,USA,USD,FALSE,FALSE,21,male,TRUE,approved,Sunshine Travel
+TXN000234,2024-04-11T02:07:02,10.52,fast_food,purchase,contactless,Chicago,IL,USA,USD,FALSE,FALSE,60,female,TRUE,approved,FarmFresh
+TXN000235,2022-03-10T16:04:52,10.1,public_transport,purchase,contactless,London,,ARE,AED,TRUE,FALSE,22,unknown,TRUE,approved,ATMWithdrawal
+TXN000236,2024-04-07T17:50:47,10.24,fast_food,purchase,contactless,San Diego,CA,USA,USD,FALSE,FALSE,37,male,TRUE,approved,ElectroZone
+TXN000237,2022-03-10T12:31:21,12.96,pharmacy,purchase,chip,Seattle,WA,USA,USD,FALSE,FALSE,60,female,FALSE,approved,FarmFresh
+TXN000238,2024-01-06T15:32:28,11.4,coffee_shop,purchase,online,Geneva,,USA,USD,FALSE,FALSE,27,female,FALSE,approved,BookNest
+TXN000239,2022-12-04T02:29:08,9.18,fast_food,purchase,contactless,Austin,TX,USA,USD,FALSE,FALSE,28,male,FALSE,approved,ATMWithdrawal
+TXN000240,2023-01-17T04:10:30,9.11,public_transport,purchase,contactless,Chicago,IL,USA,USD,FALSE,FALSE,19,male,FALSE,pending,FarmFresh
+TXN000241,2022-03-03T13:12:45,8.71,pharmacy,purchase,chip,Orlando,FL,USA,USD,FALSE,FALSE,60,female,FALSE,approved,GiftWorld
+TXN000242,2023-09-05T22:21:16,9.13,fast_food,purchase,contactless,Seattle,WA,USA,USD,FALSE,FALSE,23,male,FALSE,approved,ElectroZone
+TXN000243,2022-02-26T11:50:00,8.72,pharmacy,purchase,chip,Seattle,WA,USA,USD,FALSE,FALSE,60,female,FALSE,approved,FarmFresh
+TXN000244,2022-02-07T17:56:57,12.86,coffee_shop,purchase,contactless,San Francisco,CA,USA,USD,FALSE,FALSE,24,male,TRUE,approved,LuxuryAuto
+TXN000245,2024-01-08T16:03:38,13.47,coffee_shop,purchase,online,Miami,FL,USA,USD,FALSE,FALSE,26,female,TRUE,pending,Sunshine Travel
+TXN000246,2022-11-16T14:48:55,12.22,books,purchase,chip,San Diego,CA,USA,USD,FALSE,FALSE,36,female,FALSE,approved,ElectroZone
+TXN000247,2022-03-15T13:20:02,12.78,pharmacy,purchase,chip,Seattle,WA,USA,USD,FALSE,FALSE,60,female,TRUE,approved,BookNest
+TXN000248,2024-04-08T01:30:46,10.61,fast_food,purchase,contactless,San Diego,CA,USA,USD,FALSE,FALSE,38,male,TRUE,approved,FashionBay
+TXN000249,2024-01-26T15:24:50,14.21,fast_food,purchase,chip,Austin,TX,USA,USD,FALSE,FALSE,22,female,FALSE,pending,ATMWithdrawal
+TXN000250,2022-08-19T23:41:39,11.75,books,purchase,chip,Los Angeles,CA,USA,USD,FALSE,FALSE,27,female,FALSE,approved,LuxuryAuto
+TXN000251,2022-02-09T17:28:11,13.48,coffee_shop,purchase,contactless,San Francisco,CA,USA,USD,FALSE,FALSE,24,male,TRUE,approved,LuxuryAuto
+TXN000252,2022-12-08T08:34:56,10.34,public_transport,purchase,contactless,Chicago,IL,USA,USD,FALSE,FALSE,20,male,FALSE,approved,QuickMart
+TXN000253,2023-02-09T11:40:29,13.47,public_transport,purchase,contactless,Boston,MA,USA,USD,FALSE,FALSE,57,female,FALSE,approved,GiftWorld
+TXN000254,2022-08-23T16:52:46,11.07,books,purchase,chip,Los Angeles,CA,USA,USD,FALSE,FALSE,27,female,FALSE,approved,LuxuryAuto
+TXN000255,2023-02-28T13:16:23,9.96,coffee_shop,purchase,contactless,Los Angeles,CA,USA,USD,FALSE,FALSE,26,female,FALSE,approved,LuxuryAuto
+TXN000256,2022-12-08T12:11:28,10.18,public_transport,purchase,contactless,Chicago,IL,USA,USD,FALSE,FALSE,19,male,TRUE,approved,QuickMart
+TXN000257,2022-03-01T13:46:37,9.39,pharmacy,purchase,chip,Phoenix,AZ,USA,USD,FALSE,FALSE,22,female,TRUE,approved,GiftWorld
+TXN000258,2022-02-28T13:05:47,10.18,pharmacy,purchase,chip,Seattle,WA,USA,USD,FALSE,FALSE,59,female,FALSE,approved,ElectroZone
+TXN000259,2022-02-12T21:22:05,12.71,coffee_shop,purchase,contactless,San Francisco,CA,USA,USD,FALSE,FALSE,24,male,FALSE,approved,LuxuryAuto
+TXN000260,2024-01-12T17:19:58,12.24,coffee_shop,purchase,online,Miami,FL,USA,USD,FALSE,FALSE,25,female,TRUE,approved,Sunshine Travel
+TXN000261,2022-09-27T05:01:12,412.49,electronics,purchase,online,Berlin,,DEU,EUR,TRUE,FALSE,42,male,FALSE,approved,Sunshine Travel
+TXN000262,2022-06-24T19:27:27,320.7,auto_services,payment,chip,Houston,TX,USA,USD,FALSE,FALSE,30,male,FALSE,pending,FarmFresh
+TXN000263,2023-11-19T12:28:11,396.84,electronics,purchase,online,,,AUS,AUD,TRUE,FALSE,36,male,FALSE,approved,SkyTravel
+TXN000264,2022-09-27T10:50:38,249.07,electronics,purchase,online,Los Angeles,CA,USA,USD,FALSE,FALSE,33,male,FALSE,approved,LuxuryAuto
+TXN000265,2023-11-04T04:46:35,330.13,electronics,purchase,online,London,,GBR,GBP,TRUE,FALSE,36,male,TRUE,approved,SkyTravel
+TXN000266,2024-03-09T06:29:50,387.83,electronics,purchase,swipe,Denver,CO,USA,USD,FALSE,FALSE,27,female,TRUE,approved,EdgeCaseStore
+TXN000267,2024-03-14T09:13:32,345.81,electronics,purchase,swipe,Tokyo,,USA,USD,FALSE,FALSE,37,male,TRUE,approved,BookNest
+TXN000268,2022-07-30T22:47:10,352.05,auto_services,payment,swipe,San Antonio,TX,USA,USD,FALSE,FALSE,71,female,FALSE,approved,GiftWorld
+TXN000269,2022-11-10T10:39:19,370.79,auto_services,payment,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,38,male,TRUE,approved,GiftWorld
+TXN000270,2022-07-05T14:23:36,432.6,travel,purchase,online,Tokyo,,JPN,JPY,TRUE,FALSE,48,male,FALSE,approved,ATM Withdrawal
+TXN000271,2022-09-28T17:25:26,266.56,electronics,purchase,online,Los Angeles,CA,USA,USD,FALSE,FALSE,33,male,FALSE,approved,LuxuryAuto
+TXN000272,2023-05-17T07:54:52,321.2,furniture,purchase,online,Atlanta,GA,USA,USD,FALSE,FALSE,45,male,FALSE,approved,FuelExpress
+TXN000273,2024-02-15T17:08:09,322.83,clothing,purchase,chip,Paris,,USA,USD,FALSE,FALSE,32,female,TRUE,approved,LuxuryAuto
+TXN000274,2023-11-02T14:10:33,289.5,electronics,purchase,online,London,,GBR,GBP,TRUE,FALSE,50,male,FALSE,approved,SkyTravel
+TXN000275,2023-11-08T16:56:45,407.28,electronics,purchase,chip,San Antonio,TX,USA,USD,FALSE,FALSE,33,female,FALSE,approved,QuickMart
+TXN000276,2023-08-06T19:34:52,209.88,furniture,purchase,chip,,,MEX,MXN,TRUE,FALSE,28,female,FALSE,approved,BookNest
+TXN000277,2022-09-26T07:16:11,380.11,electronics,purchase,online,Berlin,,DEU,EUR,TRUE,FALSE,42,male,FALSE,approved,Sunshine Travel
+TXN000278,2022-01-31T09:02:38,231.88,electronics,purchase,online,London,,GBR,GBP,TRUE,FALSE,42,female,FALSE,approved,SkyTravel
+TXN000279,2023-08-11T01:29:59,228.9,furniture,purchase,chip,,,SGP,SGD,TRUE,FALSE,30,male,FALSE,approved,CryptoExchange
+TXN000280,2023-11-05T13:49:20,373.43,electronics,purchase,chip,San Antonio,TX,USA,USD,FALSE,FALSE,33,female,FALSE,approved,GiftWorld
+TXN000281,2022-11-12T00:37:07,392.43,auto_services,payment,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,36,female,TRUE,approved,FuelExpress
+TXN000282,2024-05-28T18:57:42,255.03,clothing,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,27,female,TRUE,approved,QuickMart
+TXN000283,2023-05-22T11:10:40,258.64,travel,purchase,online,Berlin,,DEU,EUR,TRUE,FALSE,45,male,FALSE,approved,Sunshine Travel
+TXN000284,2023-11-16T10:22:57,368.71,electronics,purchase,online,,,AUS,AUD,TRUE,FALSE,36,male,TRUE,approved,Sunshine Travel
+TXN000285,2022-03-22T21:41:36,230.84,electronics,purchase,online,Montreal,,USA,USD,FALSE,FALSE,29,female,TRUE,approved,ElectroZone
+TXN000286,2022-11-12T10:12:45,396.6,auto_services,payment,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,38,male,FALSE,approved,GiftWorld
+TXN000287,2022-09-27T08:44:28,403.66,electronics,purchase,online,Berlin,,DEU,EUR,TRUE,FALSE,43,male,TRUE,approved,Sunshine Travel
+TXN000288,2022-09-15T09:51:12,234.55,electronics,purchase,online,Geneva,,USA,USD,FALSE,FALSE,34,female,TRUE,approved,BookNest
+TXN000289,2022-08-02T01:56:25,356.01,auto_services,payment,swipe,San Antonio,TX,USA,USD,FALSE,FALSE,38,male,FALSE,approved,TinyCafe
+TXN000290,2022-02-04T08:08:46,246.17,electronics,purchase,online,London,,GBR,GBP,TRUE,FALSE,40,female,TRUE,approved,Sunshine Travel
+TXN000291,2022-08-04T09:36:34,12353.77,jewelry,purchase,manual,Dubai,,ARE,AED,TRUE,TRUE,26,female,FALSE,declined,CryptoExchange
+TXN000292,2023-04-16T00:47:24,994252.54,luxury_goods,purchase,manual,San Diego,CA,CHE,CHF,TRUE,TRUE,120,other,TRUE,declined,CryptoExchange
+TXN000293,2023-08-10T18:10:57,14620.18,automobile,purchase,online,Berlin,,DEU,EUR,TRUE,TRUE,62,male,TRUE,declined,SkyTravel
+TXN000294,2023-06-29T06:16:23,23332.85,automobile,purchase,manual,Tokyo,,JPN,JPY,TRUE,TRUE,45,female,TRUE,declined,LuxuryAuto
+TXN000295,2023-07-15T14:23:45,6696.39,automobile,payment,manual,Miami,FL,USA,USD,FALSE,TRUE,38,female,FALSE,declined,Sunshine Travel
+TXN000296,2024-03-16T12:03:50,120470.39,real_estate,transfer,manual,,,SGP,SGD,TRUE,TRUE,34,female,FALSE,declined,Sunshine Travel
+TXN000297,2024-03-19T13:58:14,964915.66,jewelry,purchase,manual,Geneva,,CHE,CHF,TRUE,TRUE,120,unknown,FALSE,declined,CryptoExchange
+TXN000298,2024-03-17T11:29:53,1017055.31,jewelry,purchase,manual,Geneva,,CHE,CHF,TRUE,TRUE,120,unknown,TRUE,declined,CryptoExchange
+TXN000299,2024-03-20T08:47:38,987209.43,jewelry,purchase,manual,Geneva,,GBR,GBP,TRUE,TRUE,53,male,TRUE,declined,SkyTravel
+TXN000300,2023-08-08T18:48:59,15141.39,automobile,purchase,online,Berlin,,DEU,EUR,TRUE,TRUE,44,male,TRUE,declined,Sunshine Travel
+TXN000301,2022-07-28T12:32:28,34804.2,real_estate,transfer,manual,Toronto,,CAN,CAD,TRUE,TRUE,32,female,FALSE,declined,SkyTravel
+TXN000302,2023-06-29T06:10:43,25552.1,automobile,purchase,manual,Tokyo,,JPN,JPY,TRUE,TRUE,58,male,FALSE,declined,ATMWithdrawal
+TXN000303,2024-03-20T04:59:31,1004795.57,jewelry,purchase,manual,Dallas,TX,CHE,CHF,TRUE,TRUE,61,male,FALSE,declined,CryptoExchange
+TXN000304,2023-06-28T01:33:59,25703.65,automobile,purchase,manual,Tokyo,,JPN,JPY,TRUE,TRUE,66,other,FALSE,declined,TinyCafe
+TXN000305,2022-08-17T10:47:27,117080.05,real_estate,transfer,manual,Houston,TX,CHE,CHF,TRUE,TRUE,47,unknown,FALSE,declined,CryptoExchange
+TXN000306,2023-07-16T22:37:07,6364.05,automobile,payment,manual,Miami,FL,USA,USD,FALSE,TRUE,60,female,FALSE,declined,Sunshine Travel
+TXN000307,2023-02-28T09:35:51,981350.89,real_estate,transfer,manual,Dallas,TX,USA,USD,FALSE,TRUE,71,male,FALSE,declined,ATM Network
+TXN000308,2023-09-24T17:42:10,16323.44,real_estate,transfer,manual,Los Angeles,CA,USA,USD,FALSE,TRUE,119,unknown,FALSE,declined,LuxuryAuto
+TXN000309,2023-07-01T02:52:29,24369.39,automobile,purchase,manual,Tokyo,,SGP,SGD,TRUE,TRUE,65,other,FALSE,declined,ATMWithdrawal
+TXN000310,2024-03-31T17:01:33,7763.83,automobile,purchase,online,Berlin,,JPN,JPY,TRUE,TRUE,42,male,FALSE,declined,BookNest
+TXN000311,2023-02-27T09:49:07,993878.64,real_estate,transfer,manual,San Francisco,CA,USA,USD,FALSE,TRUE,28,male,FALSE,declined,LuxuryAuto
+TXN000312,2023-09-24T22:31:18,14438.38,real_estate,transfer,manual,Los Angeles,CA,USA,USD,FALSE,TRUE,120,unknown,FALSE,declined,LuxuryAuto
+TXN000313,2022-04-05T21:40:46,5779.59,travel,purchase,online,London,,GBR,GBP,TRUE,TRUE,55,male,FALSE,declined,SkyTravel
+TXN000314,2023-07-13T19:33:29,6378.98,automobile,payment,manual,Miami,FL,USA,USD,FALSE,TRUE,61,male,FALSE,declined,FuelExpress
+TXN000315,2022-07-27T16:47:08,34016.91,real_estate,transfer,manual,Toronto,,CAN,CAD,TRUE,TRUE,26,male,FALSE,declined,SkyTravel
+TXN000316,2024-01-26T08:13:09,513916.6,real_estate,transfer,manual,Dubai,,ARE,AED,TRUE,TRUE,33,female,FALSE,declined,QuickMart
+TXN000317,2024-04-20T10:14:35,306969.8,luxury_goods,purchase,manual,Paris,,FRA,EUR,TRUE,TRUE,28,female,FALSE,declined,FuelExpress
+TXN000318,2023-02-28T13:41:33,990785.33,real_estate,transfer,manual,San Francisco,CA,USA,USD,FALSE,TRUE,71,male,FALSE,declined,LuxuryAuto
+TXN000319,2022-08-01T17:03:39,33807.81,real_estate,transfer,manual,Toronto,,CAN,CAD,TRUE,TRUE,59,unknown,FALSE,declined,Sunshine Travel
+TXN000320,2023-04-19T15:17:54,1000771.32,luxury_goods,purchase,manual,Geneva,,CHE,CHF,TRUE,TRUE,120,other,FALSE,declined,CryptoExchange
+TXN000321,2022-05-30T04:35:23,62.76,furniture,purchase,chip,Toronto,,USA,USD,FALSE,FALSE,28,female,FALSE,pending,SkyTravel
+TXN000322,2022-06-15T19:12:12,74.25,books,purchase,swipe,Osaka,,JPN,JPY,TRUE,FALSE,48,male,FALSE,approved,ATM Network
+TXN000323,2023-06-01T03:47:28,76.06,clothing,purchase,chip,New York,NY,USA,USD,FALSE,FALSE,41,female,TRUE,approved,CryptoExchange
+TXN000324,2024-02-26T15:31:51,83.55,charity,payment,online,,,CAN,CAD,TRUE,FALSE,54,male,TRUE,approved,SkyTravel
+TXN000325,2024-02-09T16:28:30,89.88,auto_services,purchase,chip,Atlanta,GA,USA,USD,FALSE,FALSE,29,male,FALSE,approved,ElectroZone
+TXN000326,2022-04-02T03:27:38,69.65,auto_services,payment,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,39,male,FALSE,approved,FuelExpress
+TXN000327,2022-11-27T12:47:05,91.4,clothing,purchase,chip,San Diego,CA,USA,USD,FALSE,FALSE,30,female,TRUE,approved,FashionBay
+TXN000328,2024-02-23T11:44:08,93.5,charity,payment,online,Zurich,,CAN,CAD,TRUE,FALSE,53,male,FALSE,pending,SkyTravel
+TXN000329,2024-02-24T11:20:32,93.38,charity,payment,online,,,CAN,CAD,TRUE,FALSE,53,male,FALSE,approved,SkyTravel
+TXN000330,2023-05-29T22:05:44,74.36,clothing,purchase,chip,New York,NY,USA,USD,FALSE,FALSE,41,female,TRUE,approved,SkyTravel
+TXN000331,2023-03-30T10:50:12,79.68,grocery,purchase,chip,Seattle,WA,USA,USD,FALSE,FALSE,37,male,FALSE,approved,BookNest
+TXN000332,2022-01-16T15:30:11,57.87,auto_services,purchase,swipe,Nashville,TN,USA,USD,FALSE,FALSE,30,male,FALSE,pending,TinyCafe
+TXN000333,2023-03-24T01:28:54,76.13,pharmacy,purchase,swipe,Miami,FL,USA,USD,FALSE,FALSE,63,female,FALSE,approved,FuelExpress
+TXN000334,2022-06-09T08:27:22,60.67,auto_services,purchase,swipe,Paris,,USA,USD,FALSE,FALSE,26,male,TRUE,approved,GiftWorld
+TXN000335,2024-05-08T04:38:23,62.05,auto_services,purchase,chip,Dallas,TX,USA,USD,FALSE,FALSE,42,male,FALSE,approved,FashionBay
+TXN000336,2023-03-22T23:35:37,87.32,pharmacy,purchase,swipe,Miami,FL,USA,USD,FALSE,FALSE,62,female,FALSE,approved,FuelExpress
+TXN000337,2024-02-07T19:27:35,86,auto_services,purchase,chip,Atlanta,GA,USA,USD,FALSE,FALSE,62,male,FALSE,pending,ElectroZone
+TXN000338,2024-01-02T22:37:40,82.89,furniture,purchase,swipe,Portland,OR,USA,USD,FALSE,FALSE,60,female,TRUE,approved,TinyCafe
+TXN000339,2022-11-26T12:35:50,89.33,clothing,purchase,chip,San Diego,CA,USA,USD,FALSE,FALSE,23,female,TRUE,approved,CryptoExchange
+TXN000340,2024-01-05T17:45:56,93.05,furniture,purchase,swipe,Portland,OR,USA,USD,FALSE,FALSE,45,male,FALSE,approved,TinyCafe
+TXN000341,2022-08-01T06:26:07,77.74,grocery,purchase,chip,Phoenix,AZ,USA,USD,FALSE,FALSE,36,male,TRUE,approved,GiftWorld
+TXN000342,2023-03-20T15:11:14,79.33,pharmacy,purchase,swipe,Miami,FL,USA,USD,FALSE,FALSE,61,female,FALSE,approved,FuelExpress
+TXN000343,2024-02-12T12:23:14,83.6,auto_services,purchase,chip,Atlanta,GA,USA,USD,FALSE,FALSE,28,female,FALSE,approved,ElectroZone
+TXN000344,2022-07-30T08:15:55,67.33,grocery,purchase,chip,Phoenix,AZ,USA,USD,FALSE,FALSE,37,male,TRUE,approved,GiftWorld
+TXN000345,2022-04-07T04:22:38,63.72,auto_services,payment,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,38,male,TRUE,approved,GiftWorld
+TXN000346,2023-12-31T02:01:03,69.2,pharmacy,purchase,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,51,male,FALSE,approved,GiftWorld
+TXN000347,2022-05-26T13:20:29,66.31,pharmacy,purchase,swipe,Houston,TX,USA,USD,FALSE,FALSE,63,female,FALSE,approved,FuelExpress
+TXN000348,2022-11-26T02:37:05,93.26,charity,payment,online,,,CAN,CAD,TRUE,FALSE,51,other,FALSE,approved,SkyTravel
+TXN000349,2022-11-30T19:24:09,89.06,charity,payment,online,,,CAN,CAD,TRUE,FALSE,45,female,FALSE,approved,SkyTravel
+TXN000350,2022-08-03T01:44:28,70.41,grocery,purchase,chip,Phoenix,AZ,USA,USD,FALSE,FALSE,38,male,FALSE,approved,GiftWorld
+TXN000351,2023-05-31T22:29:56,17.37,public_transport,purchase,contactless,Chicago,IL,USA,USD,FALSE,FALSE,28,male,FALSE,approved,QuickMart
+TXN000352,2023-03-03T22:32:44,16.47,grocery,purchase,online,Montreal,,CAN,CAD,TRUE,FALSE,53,male,FALSE,approved,SkyTravel
+TXN000353,2022-06-04T21:12:54,16,public_transport,purchase,contactless,Boston,MA,USA,USD,FALSE,FALSE,20,male,FALSE,approved,BookNest
+TXN000354,2023-03-03T15:43:34,13.76,grocery,purchase,online,Montreal,,CAN,CAD,TRUE,FALSE,54,male,FALSE,approved,SkyTravel
+TXN000355,2022-05-31T14:24:16,14.55,public_transport,purchase,contactless,Boston,MA,USA,USD,FALSE,FALSE,19,male,TRUE,approved,BookNest
+TXN000356,2023-02-11T05:43:31,13.75,public_transport,purchase,contactless,Paris,,FRA,EUR,TRUE,FALSE,20,male,TRUE,approved,LuxuryAuto
+TXN000357,2022-12-25T18:44:05,17.06,public_transport,purchase,contactless,Sydney,,USA,USD,FALSE,FALSE,23,female,FALSE,approved,FashionBay
+TXN000358,2023-04-10T04:10:14,18.36,coffee_shop,purchase,contactless,,,SGP,SGD,TRUE,FALSE,39,other,TRUE,approved,FarmFresh
+TXN000359,2022-12-04T02:20:18,18.18,coffee_shop,purchase,contactless,Phoenix,AZ,USA,USD,FALSE,FALSE,52,male,TRUE,approved,GiftWorld
+TXN000360,2022-05-19T09:16:21,15.32,coffee_shop,purchase,contactless,Toronto,,DEU,EUR,TRUE,FALSE,33,male,FALSE,approved,Sunshine Travel
+TXN000361,2022-05-25T09:57:17,14.43,coffee_shop,purchase,contactless,Toronto,,CAN,CAD,TRUE,FALSE,33,male,TRUE,approved,SkyTravel
+TXN000362,2022-09-16T09:18:00,18.05,public_transport,purchase,contactless,Boston,MA,USA,USD,FALSE,FALSE,44,female,TRUE,pending,BookNest
+TXN000363,2023-02-28T14:25:23,14.87,grocery,purchase,online,Montreal,,CAN,CAD,TRUE,FALSE,53,male,FALSE,approved,SkyTravel
+TXN000364,2024-05-18T16:19:04,18.07,clothing,purchase,online,San Jose,CA,USA,USD,FALSE,FALSE,28,female,FALSE,pending,ATMWithdrawal
+TXN000365,2022-06-13T08:04:03,14.75,pharmacy,purchase,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,60,male,FALSE,approved,FuelExpress
+TXN000366,2023-12-25T02:25:59,13.78,coffee_shop,purchase,contactless,Boston,MA,USA,USD,FALSE,FALSE,24,male,TRUE,approved,BookNest
+TXN000367,2022-06-14T16:10:17,16.94,pharmacy,purchase,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,62,male,TRUE,approved,ElectroZone
+TXN000368,2024-05-19T10:37:06,18.63,clothing,purchase,online,San Jose,CA,USA,USD,FALSE,FALSE,29,female,FALSE,approved,ElectroZone
+TXN000369,2024-03-11T21:24:15,18.21,books,purchase,online,Boston,MA,USA,USD,FALSE,FALSE,23,male,FALSE,approved,GiftWorld
+TXN000370,2023-10-22T14:23:36,15.5,coffee_shop,purchase,contactless,London,,CAN,CAD,TRUE,FALSE,32,male,FALSE,approved,Sunshine Travel
+TXN000371,2022-06-03T11:34:47,14.29,public_transport,purchase,contactless,Chicago,IL,USA,USD,FALSE,FALSE,19,male,FALSE,approved,QuickMart
+TXN000372,2023-11-13T16:46:32,18.17,furniture,purchase,chip,Houston,TX,USA,USD,FALSE,FALSE,28,female,FALSE,approved,FuelExpress
+TXN000373,2023-04-08T07:37:52,16.45,coffee_shop,purchase,contactless,Columbus,OH,SGP,SGD,TRUE,FALSE,38,other,FALSE,approved,EdgeCaseStore
+TXN000374,2023-04-08T08:08:42,16.16,coffee_shop,purchase,contactless,,,CHE,CHF,TRUE,FALSE,38,other,TRUE,approved,CryptoExchange
+TXN000375,2022-09-18T12:47:23,17.13,public_transport,purchase,contactless,Boston,MA,USA,USD,FALSE,FALSE,21,female,FALSE,approved,GiftWorld
+TXN000376,2024-05-10T06:52:39,14.82,coffee_shop,purchase,contactless,Toronto,,FRA,EUR,TRUE,FALSE,32,male,FALSE,approved,QuickMart
+TXN000377,2023-09-27T11:39:27,14.03,coffee_shop,purchase,contactless,Montreal,,CAN,CAD,TRUE,FALSE,33,male,FALSE,approved,SkyTravel
+TXN000378,2022-05-24T14:11:31,14.29,coffee_shop,purchase,contactless,Toronto,,CAN,CAD,TRUE,FALSE,32,male,FALSE,approved,SkyTravel
+TXN000379,2023-03-02T18:30:32,14.93,grocery,purchase,online,Montreal,,CAN,CAD,TRUE,FALSE,53,male,FALSE,approved,SkyTravel
+TXN000380,2022-06-16T09:07:08,15.5,pharmacy,purchase,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,62,male,FALSE,pending,ElectroZone
+TXN000381,2022-08-07T02:40:14,708.84,electronics,purchase,online,Chicago,IL,USA,USD,FALSE,FALSE,42,female,FALSE,approved,QuickMart
+TXN000382,2023-07-01T17:24:39,856.78,pharmacy,refund,chip,Seattle,WA,USA,USD,FALSE,FALSE,61,female,FALSE,pending,BookNest
+TXN000383,2023-11-30T21:34:00,2903.39,luxury_goods,purchase,manual,Paris,,FRA,EUR,TRUE,TRUE,61,male,TRUE,declined,ATM Withdrawal
+TXN000384,2022-08-03T03:27:18,1708.74,luxury_goods,purchase,manual,Houston,TX,JPN,JPY,TRUE,TRUE,47,male,FALSE,declined,GiftWorld
+TXN000385,2023-01-07T20:26:46,4056.7,luxury_goods,purchase,manual,Dubai,,ARE,AED,TRUE,TRUE,47,male,FALSE,declined,ElectroZone
+TXN000386,2023-08-12T17:12:41,1055.5,electronics,purchase,online,Toronto,,AUS,AUD,TRUE,FALSE,32,female,TRUE,approved,Sunshine Travel
+TXN000387,2023-07-01T22:16:16,2372.1,jewelry,purchase,manual,Zurich,,CHE,CHF,TRUE,TRUE,59,other,FALSE,declined,CryptoExchange
+TXN000388,2024-02-23T17:49:12,1424.88,luxury_goods,purchase,manual,Zurich,,CHE,CHF,TRUE,TRUE,22,male,FALSE,declined,CryptoExchange
+TXN000389,2022-10-15T16:11:40,3367.12,luxury_goods,purchase,manual,Austin,TX,CHE,CHF,TRUE,TRUE,50,female,FALSE,declined,CryptoExchange
+TXN000390,2024-02-22T09:45:49,1476.57,luxury_goods,purchase,manual,Zurich,,CHE,CHF,TRUE,TRUE,23,male,FALSE,declined,CryptoExchange
+TXN000391,2024-04-12T16:55:32,2447,jewelry,purchase,manual,Dubai,,CHE,CHF,TRUE,TRUE,51,female,FALSE,declined,CryptoExchange
+TXN000392,2024-04-10T16:54:36,2286.97,jewelry,purchase,manual,Dubai,,ARE,AED,TRUE,TRUE,55,female,FALSE,declined,CryptoExchange
+TXN000393,2023-09-13T08:19:23,584.31,luxury_goods,purchase,online,Boston,MA,USA,USD,FALSE,FALSE,32,female,FALSE,approved,GiftWorld
+TXN000394,2024-02-22T16:44:14,4879.37,luxury_goods,purchase,manual,London,,GBR,GBP,TRUE,TRUE,54,female,FALSE,declined,SkyTravel
+TXN000395,2022-07-17T02:10:12,1154.17,jewelry,purchase,manual,Zurich,,CHE,CHF,TRUE,TRUE,37,female,FALSE,declined,CryptoExchange
+TXN000396,2023-09-12T08:41:25,606.26,luxury_goods,purchase,online,New York,NY,USA,USD,FALSE,FALSE,26,female,TRUE,approved,CryptoExchange
+TXN000397,2023-09-14T15:27:00,570.7,luxury_goods,purchase,online,New York,NY,USA,USD,FALSE,FALSE,27,unknown,FALSE,approved,SkyTravel
+TXN000398,2022-08-02T10:19:05,675,electronics,purchase,online,Chicago,IL,USA,USD,FALSE,FALSE,41,female,TRUE,approved,QuickMart
+TXN000399,2022-07-12T13:20:41,1143.26,jewelry,purchase,manual,Zurich,,CHE,CHF,TRUE,TRUE,38,female,FALSE,declined,CryptoExchange
+TXN000400,2023-09-15T05:22:39,623.38,luxury_goods,purchase,online,New York,NY,USA,USD,FALSE,FALSE,32,female,FALSE,approved,SkyTravel
+TXN000401,2024-11-04T04:35:07,2038.33,jewelry,purchase,manual,Geneva,,CHE,CHF,TRUE,TRUE,61,male,TRUE,declined,CryptoExchange
+TXN000402,2022-07-28T01:46:25,1863.23,luxury_goods,purchase,manual,Dubai,,ARE,AED,TRUE,TRUE,47,male,FALSE,declined,QuickMart
+TXN000403,2023-09-14T11:48:14,599.48,luxury_goods,purchase,online,New York,NY,USA,USD,FALSE,FALSE,31,female,TRUE,approved,CryptoExchange
+TXN000404,2022-10-18T22:04:54,3461.01,luxury_goods,purchase,manual,Geneva,,CHE,CHF,TRUE,TRUE,49,female,FALSE,declined,CryptoExchange
+TXN000405,2023-06-28T23:29:21,2469.43,jewelry,purchase,manual,Zurich,,CHE,CHF,TRUE,TRUE,23,female,FALSE,declined,CryptoExchange
+TXN000406,2023-08-15T18:27:18,1103.24,electronics,purchase,online,Toronto,,CAN,CAD,TRUE,FALSE,31,female,FALSE,approved,SkyTravel
+TXN000407,2023-08-15T15:35:59,997,electronics,purchase,online,San Jose,CA,CAN,CAD,TRUE,FALSE,32,female,TRUE,approved,SkyTravel
+TXN000408,2022-08-07T07:28:56,614.67,electronics,purchase,online,Chicago,IL,USA,USD,FALSE,FALSE,40,female,FALSE,approved,QuickMart
+TXN000409,2022-07-16T08:37:13,1101.26,jewelry,purchase,manual,Zurich,,CHE,CHF,TRUE,TRUE,38,female,TRUE,declined,CryptoExchange
+TXN000410,2022-03-10T15:05:07,3648.91,travel,purchase,online,Osaka,,FRA,EUR,TRUE,TRUE,32,female,FALSE,declined,LuxuryAuto
+TXN000411,2022-06-19T22:10:06,22.94,books,purchase,chip,San Diego,CA,USA,USD,FALSE,FALSE,22,female,FALSE,approved,ElectroZone
+TXN000412,2023-04-07T10:13:08,37.9,grocery,purchase,chip,Dallas,TX,USA,USD,FALSE,FALSE,47,female,TRUE,approved,ATM Network
+TXN000413,2024-07-19T19:55:45,26.31,books,purchase,chip,Philadelphia,PA,USA,USD,FALSE,FALSE,47,female,FALSE,approved,LuxuryAuto
+TXN000414,2023-04-16T12:57:08,24.62,books,purchase,chip,San Francisco,CA,USA,USD,FALSE,FALSE,29,female,TRUE,approved,LuxuryAuto
+TXN000415,2024-04-01T01:31:18,23.45,books,purchase,chip,Denver,CO,USA,USD,FALSE,FALSE,47,male,TRUE,approved,EdgeCaseStore
+TXN000416,2023-11-12T04:42:37,36.47,grocery,purchase,chip,New York,NY,USA,USD,FALSE,FALSE,31,female,TRUE,approved,CryptoExchange
+TXN000417,2022-12-04T10:36:07,18.65,books,purchase,chip,San Francisco,CA,USA,USD,FALSE,FALSE,35,other,FALSE,approved,LuxuryAuto
+TXN000418,2022-06-17T15:05:55,20.03,books,purchase,chip,Orlando,FL,USA,USD,FALSE,FALSE,23,female,FALSE,approved,GiftWorld
+TXN000419,2024-07-17T18:35:19,26.85,books,purchase,chip,Charlotte,NC,USA,USD,FALSE,FALSE,34,female,FALSE,pending,ElectroZone
+TXN000420,2023-11-08T12:17:31,34.55,grocery,purchase,chip,New York,NY,USA,USD,FALSE,FALSE,31,female,FALSE,approved,CryptoExchange
+TXN000421,2023-04-16T17:29:48,26.79,books,purchase,chip,San Francisco,CA,USA,USD,FALSE,FALSE,22,female,FALSE,approved,LuxuryAuto
+TXN000422,2024-01-24T14:28:35,19.06,fast_food,purchase,chip,Portland,OR,USA,USD,FALSE,FALSE,31,male,TRUE,approved,TinyCafe
+TXN000423,2022-12-22T19:06:55,27.58,books,purchase,chip,Philadelphia,PA,USA,USD,FALSE,FALSE,23,female,FALSE,approved,LuxuryAuto
+TXN000424,2022-12-22T15:08:25,23.99,books,purchase,chip,Philadelphia,PA,USA,USD,FALSE,FALSE,22,female,FALSE,approved,ElectroZone
+TXN000425,2023-06-30T14:49:20,18.98,coffee_shop,purchase,online,Denver,CO,USA,USD,FALSE,FALSE,23,male,FALSE,approved,EdgeCaseStore
+TXN000426,2024-03-09T10:28:25,24.3,coffee_shop,purchase,chip,Toronto,,AUS,AUD,TRUE,FALSE,31,male,TRUE,approved,SkyTravel
+TXN000427,2022-06-19T12:23:42,24.44,books,purchase,chip,San Diego,CA,USA,USD,FALSE,FALSE,22,female,FALSE,approved,FashionBay
+TXN000428,2023-10-21T23:31:45,19.38,electronics,purchase,chip,Atlanta,GA,USA,USD,FALSE,FALSE,37,male,TRUE,approved,FuelExpress
+TXN000429,2024-01-25T19:24:21,20.75,fast_food,purchase,chip,Columbus,OH,USA,USD,FALSE,FALSE,31,male,FALSE,approved,FuelExpress
+TXN000430,2023-10-19T21:11:33,20.48,electronics,purchase,chip,Charlotte,NC,USA,USD,FALSE,FALSE,71,male,TRUE,approved,FuelExpress
+TXN000431,2024-03-14T10:43:27,20.6,coffee_shop,purchase,chip,Toronto,,ARE,AED,TRUE,FALSE,20,female,TRUE,approved,CryptoExchange
+TXN000432,2023-07-04T15:01:28,20.97,coffee_shop,purchase,online,Denver,CO,USA,USD,FALSE,FALSE,23,male,FALSE,approved,EdgeCaseStore
+TXN000433,2023-11-14T13:02:08,34.61,grocery,purchase,chip,New York,NY,USA,USD,FALSE,FALSE,32,female,TRUE,approved,CryptoExchange
+TXN000434,2022-05-16T10:30:07,19.29,coffee_shop,purchase,contactless,Boston,MA,USA,USD,FALSE,FALSE,19,male,FALSE,pending,BookNest
+TXN000435,2022-05-21T16:44:04,21.09,coffee_shop,purchase,contactless,Boston,MA,USA,USD,FALSE,FALSE,26,female,TRUE,pending,BookNest
+TXN000436,2022-12-05T10:56:51,17.76,books,purchase,chip,San Francisco,CA,USA,USD,FALSE,FALSE,120,other,FALSE,approved,LuxuryAuto
+TXN000437,2022-12-27T10:09:18,23.85,books,purchase,chip,Philadelphia,PA,USA,USD,FALSE,FALSE,23,female,TRUE,approved,FarmFresh
+TXN000438,2023-07-15T09:08:07,23.7,coffee_shop,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,29,female,FALSE,pending,QuickMart
+TXN000439,2022-08-15T13:10:23,28.35,coffee_shop,purchase,contactless,Los Angeles,CA,USA,USD,FALSE,FALSE,26,female,TRUE,approved,LuxuryAuto
+TXN000440,2023-10-21T22:05:59,21.85,electronics,purchase,chip,Atlanta,GA,USA,USD,FALSE,FALSE,36,male,FALSE,approved,ElectroZone
+TXN000441,2022-09-13T20:36:02,0.5,public_transport,purchase,contactless,London,,ARE,AED,TRUE,FALSE,38,male,FALSE,approved,FarmFresh
+TXN000442,2024-04-14T09:21:51,3.46,fast_food,purchase,contactless,Miami,FL,USA,USD,FALSE,FALSE,20,male,FALSE,approved,ATM Withdrawal
+TXN000443,2022-06-30T04:08:01,7.49,fast_food,purchase,swipe,Philadelphia,PA,USA,USD,FALSE,FALSE,25,male,FALSE,approved,TinyCafe
+TXN000444,2022-07-22T11:42:24,6.4,coffee_shop,purchase,online,Philadelphia,PA,USA,USD,FALSE,FALSE,25,female,TRUE,approved,ATM Network
+TXN000445,2022-05-17T17:30:41,8.27,coffee_shop,purchase,chip,Austin,TX,USA,USD,FALSE,FALSE,26,female,FALSE,approved,BookNest
+TXN000446,2022-10-27T15:21:41,4.73,coffee_shop,purchase,chip,Portland,OR,USA,USD,FALSE,FALSE,29,female,FALSE,approved,TinyCafe
+TXN000447,2022-02-22T07:49:43,7.4,fast_food,purchase,contactless,Orlando,FL,USA,USD,FALSE,FALSE,62,female,FALSE,pending,GiftWorld
+TXN000448,2023-05-23T18:32:59,7.44,books,purchase,online,San Francisco,CA,USA,USD,FALSE,FALSE,21,female,FALSE,approved,CryptoExchange
+TXN000449,2022-08-23T06:18:47,5.49,fast_food,purchase,contactless,Austin,TX,USA,USD,FALSE,FALSE,22,male,FALSE,approved,BookNest
+TXN000450,2024-02-07T09:56:07,3.34,coffee_shop,purchase,contactless,Denver,CO,USA,USD,FALSE,FALSE,23,male,FALSE,pending,FarmFresh
+TXN000451,2022-07-23T04:46:11,6.56,coffee_shop,purchase,online,Philadelphia,PA,USA,USD,FALSE,FALSE,26,female,FALSE,approved,GiftWorld
+TXN000452,2022-09-09T17:11:27,0.5,public_transport,purchase,contactless,London,,GBR,GBP,TRUE,FALSE,23,male,FALSE,approved,Sunshine Travel
+TXN000453,2022-09-15T00:47:18,0.5,public_transport,purchase,contactless,London,,GBR,GBP,TRUE,FALSE,24,male,FALSE,approved,SkyTravel
+TXN000454,2024-03-01T12:58:38,1.24,books,refund,online,San Diego,CA,USA,USD,FALSE,FALSE,22,female,FALSE,pending,ElectroZone
+TXN000455,2022-10-18T15:59:08,8.15,coffee_shop,purchase,contactless,Houston,TX,USA,USD,FALSE,FALSE,27,female,FALSE,approved,FuelExpress
+TXN000456,2022-05-16T11:58:40,7.98,coffee_shop,purchase,chip,Austin,TX,USA,USD,FALSE,FALSE,25,female,TRUE,approved,ATMWithdrawal
+TXN000457,2022-10-18T16:00:31,7.59,coffee_shop,purchase,contactless,Houston,TX,USA,USD,FALSE,FALSE,25,female,FALSE,approved,FarmFresh
+TXN000458,2024-02-08T13:54:12,3.53,coffee_shop,purchase,contactless,Denver,CO,USA,USD,FALSE,FALSE,23,male,TRUE,approved,FarmFresh
+TXN000459,2023-05-25T22:36:18,8.06,books,purchase,online,San Francisco,CA,USA,USD,FALSE,FALSE,59,male,FALSE,approved,CryptoExchange
+TXN000460,2022-05-14T12:37:37,9.16,coffee_shop,purchase,chip,Austin,TX,USA,USD,FALSE,FALSE,26,female,FALSE,approved,Sunshine Travel
+TXN000461,2023-03-12T12:17:46,7.48,pharmacy,purchase,chip,Seattle,WA,USA,USD,FALSE,FALSE,38,male,TRUE,approved,BookNest
+TXN000462,2022-06-27T06:47:08,7.63,fast_food,purchase,swipe,Philadelphia,PA,USA,USD,FALSE,FALSE,24,male,FALSE,approved,FuelExpress
+TXN000463,2023-08-28T17:37:44,5.4,books,purchase,chip,Denver,CO,USA,USD,FALSE,FALSE,22,female,TRUE,approved,EdgeCaseStore
+TXN000464,2022-03-19T19:05:27,5.43,coffee_shop,purchase,contactless,,,MEX,MXN,TRUE,FALSE,28,female,FALSE,approved,LuxuryAuto
+TXN000465,2023-03-15T08:59:49,8.01,pharmacy,purchase,chip,Seattle,WA,USA,USD,FALSE,FALSE,32,female,TRUE,approved,ElectroZone
+TXN000466,2023-03-13T12:23:12,7.26,pharmacy,purchase,chip,Seattle,WA,USA,USD,FALSE,FALSE,60,female,FALSE,pending,ElectroZone
+TXN000467,2023-01-21T11:01:04,4.38,public_transport,purchase,contactless,Singapore,,SGP,SGD,TRUE,FALSE,21,female,TRUE,approved,QuickMart
+TXN000468,2022-08-22T12:56:00,5.59,fast_food,purchase,contactless,Austin,TX,USA,USD,FALSE,FALSE,21,male,FALSE,approved,BookNest
+TXN000469,2022-02-13T06:50:11,7.65,grocery,purchase,chip,Vancouver,,CAN,CAD,TRUE,FALSE,52,female,TRUE,approved,SkyTravel
+TXN000470,2022-10-20T17:27:54,7.08,coffee_shop,purchase,contactless,,,USA,USD,FALSE,FALSE,26,female,TRUE,pending,CryptoExchange
+TXN000471,2022-10-12T16:28:36,97.92,clothing,purchase,online,Los Angeles,CA,USA,USD,FALSE,FALSE,46,male,TRUE,approved,LuxuryAuto
+TXN000472,2023-05-14T19:13:53,120.08,clothing,purchase,online,San Diego,CA,USA,USD,FALSE,FALSE,32,female,TRUE,approved,FashionBay
+TXN000473,2024-04-05T11:22:18,135.42,books,purchase,online,Austin,TX,USA,USD,FALSE,FALSE,34,female,FALSE,approved,ATMWithdrawal
+TXN000474,2023-11-21T15:42:40,113.53,electronics,purchase,online,Dallas,TX,USA,USD,FALSE,FALSE,34,female,TRUE,approved,FuelExpress
+TXN000475,2023-08-06T15:20:40,148.76,clothing,purchase,swipe,Boston,MA,USA,USD,FALSE,FALSE,50,female,TRUE,approved,GiftWorld
+TXN000476,2024-01-11T12:39:58,172.64,electronics,purchase,online,San Jose,CA,USA,USD,FALSE,FALSE,38,male,FALSE,approved,BookNest
+TXN000477,2022-12-14T14:14:09,98.09,grocery,purchase,chip,Vancouver,,CAN,CAD,TRUE,FALSE,52,female,TRUE,pending,SkyTravel
+TXN000478,2023-02-17T08:49:47,230.04,clothing,purchase,online,Tokyo,,JPN,JPY,TRUE,FALSE,28,female,FALSE,approved,GiftWorld
+TXN000479,2024-04-05T07:01:20,140.1,books,purchase,online,Austin,TX,USA,USD,FALSE,FALSE,35,female,FALSE,approved,BookNest
+TXN000480,2023-09-28T15:21:56,201.44,auto_services,purchase,swipe,Detroit,MI,USA,USD,FALSE,FALSE,25,male,TRUE,approved,ElectroZone
+TXN000481,2023-05-15T13:24:05,123.1,clothing,purchase,online,San Diego,CA,USA,USD,FALSE,FALSE,24,male,FALSE,approved,FashionBay
+TXN000482,2024-02-21T15:18:14,234.79,furniture,purchase,online,,,FRA,EUR,TRUE,FALSE,33,female,TRUE,approved,FashionBay
+TXN000483,2022-10-11T09:15:29,95.16,clothing,purchase,online,Vancouver,,USA,USD,FALSE,FALSE,27,female,TRUE,approved,ElectroZone
+TXN000484,2024-06-05T04:32:12,123.35,grocery,purchase,chip,Los Angeles,CA,USA,USD,FALSE,FALSE,30,female,FALSE,approved,SkyTravel
+TXN000485,2024-03-15T16:28:19,208.23,electronics,purchase,online,Austin,TX,USA,USD,FALSE,FALSE,33,female,FALSE,approved,BookNest
+TXN000486,2024-04-02T14:32:59,140.6,books,purchase,online,Austin,TX,USA,USD,FALSE,FALSE,42,female,TRUE,approved,BookNest
+TXN000487,2023-11-24T12:55:31,121.16,electronics,purchase,online,Dallas,TX,USA,USD,FALSE,FALSE,35,female,FALSE,pending,ElectroZone
+TXN000488,2024-04-03T04:29:05,146.14,books,purchase,online,Austin,TX,USA,USD,FALSE,FALSE,35,female,TRUE,approved,BookNest
+TXN000489,2023-02-16T02:34:40,212.21,clothing,purchase,online,Tokyo,,JPN,JPY,TRUE,FALSE,28,female,FALSE,approved,LuxuryAuto
+TXN000490,2023-07-08T11:37:37,201.98,fast_food,purchase,contactless,Montreal,,CAN,CAD,TRUE,FALSE,28,female,FALSE,approved,SkyTravel
+TXN000491,2023-06-25T09:34:24,99.22,grocery,purchase,swipe,San Antonio,TX,USA,USD,FALSE,FALSE,50,female,FALSE,approved,QuickMart
+TXN000492,2024-06-09T00:56:15,127.7,grocery,purchase,chip,Los Angeles,CA,USA,USD,FALSE,FALSE,29,female,FALSE,approved,SkyTravel
+TXN000493,2023-05-17T19:41:29,124.15,clothing,purchase,online,Geneva,,USA,USD,FALSE,FALSE,23,female,TRUE,approved,ElectroZone
+TXN000494,2024-02-26T19:09:58,261.05,furniture,purchase,online,,,SGP,SGD,TRUE,FALSE,20,female,TRUE,approved,LuxuryAuto
+TXN000495,2023-02-20T10:23:55,196.96,clothing,purchase,online,Tokyo,,JPN,JPY,TRUE,FALSE,29,female,TRUE,approved,ATM Network
+TXN000496,2024-03-14T18:49:19,191.3,electronics,purchase,online,Austin,TX,USA,USD,FALSE,FALSE,34,female,FALSE,approved,BookNest
+TXN000497,2023-02-20T07:17:52,207.27,clothing,purchase,online,Tokyo,,JPN,JPY,TRUE,FALSE,27,female,FALSE,approved,GiftWorld
+TXN000498,2023-02-20T07:19:03,193.91,clothing,purchase,online,Tokyo,,JPN,JPY,TRUE,FALSE,28,female,FALSE,approved,SkyTravel
+TXN000499,2024-04-01T06:01:29,123.78,books,purchase,online,Berlin,,USA,USD,FALSE,FALSE,35,female,FALSE,approved,GiftWorld
+TXN000500,2024-03-11T01:31:48,117.08,auto_services,payment,chip,Portland,OR,USA,USD,FALSE,FALSE,48,female,FALSE,approved,TinyCafe
+TXN000001,2024-05-23T14:18:45Z,32.45,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,38,Female,FALSE,approved,QuickMart
+TXN000002,2024-06-14T19:05:32Z,85.99,apparel,purchase,swipe,San Diego,CA,USA,USD,FALSE,FALSE,41,Other,FALSE,approved,FashionBay
+TXN000003,2024-04-01T16:27:14Z,458.5,electronics,purchase,contactless,Dallas,TX,USA,USD,FALSE,FALSE,33,Male,FALSE,approved,ElectroZone
+TXN000004,2024-06-17T09:43:24Z,15.25,books,purchase,online,Boston,MA,USA,USD,FALSE,FALSE,50,Female,TRUE,approved,BookNest
+TXN000005,2024-03-29T13:19:03Z,67.98,grocery,purchase,chip,Seattle,WA,USA,USD,FALSE,FALSE,18,Female,FALSE,approved,FarmFresh
+TXN000006,2024-04-18T17:32:17Z,112.1,gifts,purchase,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,48,Other,FALSE,approved,GiftWorld
+TXN000007,2024-06-21T21:10:04Z,59.76,fuel,purchase,manual,Houston,TX,USA,USD,FALSE,FALSE,58,Female,FALSE,approved,FuelExpress
+TXN000008,2024-02-14T08:29:56Z,18.5,restaurant,purchase,contactless,San Francisco,CA,USA,USD,FALSE,FALSE,52,Male,FALSE,approved,TinyCafe
+TXN000009,2023-12-25T11:14:37Z,2.99,miscellaneous,purchase,manual,Denver,CO,USA,USD,FALSE,FALSE,32,Male,FALSE,approved,EdgeCaseStore
+TXN000010,2024-06-10T12:00:44Z,65.5,books,refund,online,Boston,MA,USA,USD,FALSE,FALSE,42,Female,TRUE,approved,BookNest
+TXN000011,2024-02-28T18:41:15Z,1210,travel,purchase,online,New York,NY,USA,USD,TRUE,FALSE,41,Female,TRUE,approved,SkyTravel
+TXN000012,2024-05-05T11:11:27Z,2780.25,travel,purchase,online,Miami,FL,USA,USD,TRUE,FALSE,45,Female,TRUE,approved,Sunshine Travel
+TXN000013,2024-03-16T07:21:30Z,1024.99,electronics,purchase,chip,Dallas,TX,USA,USD,FALSE,TRUE,29,Male,FALSE,declined,ElectroZone
+TXN000014,2024-04-30T13:55:08Z,54350,financial,withdrawal,online,New York,NY,USA,USD,TRUE,TRUE,50,Male,TRUE,declined,CryptoExchange
+TXN000015,2024-05-01T20:22:35Z,120000,automotive,purchase,online,Los Angeles,CA,USA,USD,TRUE,TRUE,32,Male,TRUE,declined,LuxuryAuto
+TXN000016,2024-06-02T15:48:08Z,75.8,fuel,purchase,manual,Houston,TX,USA,USD,FALSE,TRUE,43,Male,FALSE,declined,FuelExpress
+TXN000017,2024-01-08T09:06:17Z,400,financial,withdrawal,manual,Dallas,TX,USA,USD,FALSE,FALSE,49,Male,FALSE,approved,ATM Network
+TXN000018,2024-03-09T06:10:22Z,3420.75,travel,purchase,online,Miami,FL,USA,USD,TRUE,FALSE,50,Female,TRUE,approved,SkyTravel
+TXN000019,2024-06-18T18:20:59Z,13.99,restaurant,purchase,contactless,San Francisco,CA,USA,USD,FALSE,FALSE,30,Female,FALSE,approved,TinyCafe
+TXN000020,2024-02-25T13:24:11Z,0.99,miscellaneous,refund,manual,Denver,CO,USA,USD,FALSE,FALSE,42,Male,FALSE,approved,EdgeCaseStore
+TXN000021,2024-06-01T18:49:41Z,123.45,grocery,purchase,chip,Seattle,WA,USA,USD,FALSE,FALSE,52,Male,FALSE,approved,FarmFresh
+TXN000022,2024-06-15T10:13:23Z,18800,automotive,purchase,online,Los Angeles,CA,USA,USD,TRUE,FALSE,36,Female,TRUE,approved,LuxuryAuto
+TXN000023,2024-06-17T17:00:01Z,10.75,books,purchase,online,Boston,MA,USA,USD,FALSE,FALSE,48,Female,TRUE,approved,BookNest
+TXN000024,2024-05-27T20:30:10Z,212,apparel,purchase,swipe,San Diego,CA,USA,USD,FALSE,FALSE,61,Male,FALSE,approved,FashionBay
+TXN000025,2024-01-16T14:17:19Z,980,financial,withdrawal,manual,Dallas,TX,USA,USD,FALSE,FALSE,39,Female,FALSE,approved,ATM Network
+TXN000026,2024-03-22T16:04:49Z,1999.95,electronics,purchase,chip,Dallas,TX,USA,USD,FALSE,FALSE,42,Female,FALSE,approved,ElectroZone
+TXN000027,2024-05-14T10:18:36Z,4100,travel,purchase,online,Miami,FL,USA,USD,TRUE,FALSE,35,Female,TRUE,approved,Sunshine Travel
+TXN000028,2024-06-03T19:43:33Z,28000,financial,withdrawal,online,New York,NY,USA,USD,TRUE,TRUE,40,Male,TRUE,declined,CryptoExchange
+TXN000029,2024-04-12T07:33:57Z,44,gifts,purchase,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,37,Male,FALSE,approved,GiftWorld
+TXN000030,2024-01-08T15:01:50Z,200,financial,withdrawal,manual,Dallas,TX,USA,USD,FALSE,FALSE,18,Female,FALSE,approved,ATM Network
+TXN000031,2024-04-21T22:33:24Z,150000,automotive,purchase,online,Los Angeles,CA,USA,USD,TRUE,TRUE,38,Male,TRUE,declined,LuxuryAuto
+TXN000032,2024-05-29T12:48:59Z,27.99,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,25,Male,FALSE,approved,QuickMart
+TXN000033,2024-01-18T08:02:37Z,300,financial,withdrawal,manual,Dallas,TX,USA,USD,FALSE,FALSE,44,Female,FALSE,approved,ATM Network
+TXN000034,2024-06-12T18:35:54Z,99.99,apparel,purchase,swipe,San Diego,CA,USA,USD,FALSE,FALSE,34,Male,FALSE,approved,FashionBay
+TXN000035,2024-02-09T09:12:17Z,8.99,gifts,refund,manual,Phoenix,AZ,USA,USD,FALSE,FALSE,21,Female,FALSE,approved,GiftWorld
+TXN000036,2024-03-29T17:11:04Z,53.12,fuel,purchase,contactless,Houston,TX,USA,USD,FALSE,FALSE,36,Female,FALSE,approved,FuelExpress
+TXN000037,2024-05-08T12:51:11Z,25.5,restaurant,purchase,contactless,San Francisco,CA,USA,USD,FALSE,FALSE,58,Male,FALSE,approved,TinyCafe
+TXN000038,2024-01-25T14:56:22Z,580,financial,withdrawal,manual,Dallas,TX,USA,USD,FALSE,FALSE,55,Male,FALSE,approved,ATM Network
+TXN000039,2024-04-04T08:23:44Z,3150.75,travel,purchase,online,Miami,FL,USA,USD,TRUE,FALSE,45,Male,TRUE,approved,Sunshine Travel
+TXN000040,2024-06-19T19:19:19Z,72000,automotive,purchase,online,Los Angeles,CA,USA,USD,TRUE,TRUE,30,Male,TRUE,declined,LuxuryAuto
+TXN000041,2024-02-19T11:46:29Z,24.99,gifts,purchase,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,36,Female,FALSE,approved,GiftWorld
+TXN000042,2024-03-04T20:44:12Z,845.3,electronics,purchase,chip,Dallas,TX,USA,USD,FALSE,FALSE,39,Male,FALSE,approved,ElectroZone
+TXN000043,2024-06-08T15:12:04Z,3.49,miscellaneous,refund,manual,Denver,CO,USA,USD,FALSE,FALSE,42,Female,FALSE,approved,EdgeCaseStore
+TXN000044,2024-05-19T16:22:41Z,21.89,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,35,Male,FALSE,approved,QuickMart
+TXN000045,2024-06-13T12:51:30Z,34.67,grocery,purchase,chip,Seattle,WA,USA,USD,FALSE,FALSE,35,Male,FALSE,approved,FarmFresh
+TXN000046,2024-06-04T18:13:42Z,2200,travel,purchase,online,Miami,FL,USA,USD,TRUE,FALSE,72,Female,TRUE,approved,Sunshine Travel
+TXN000047,2024-02-12T09:59:14Z,700,financial,withdrawal,manual,Dallas,TX,USA,USD,FALSE,FALSE,20,Female,FALSE,approved,ATM Network
+TXN000048,2024-05-31T11:04:20Z,250.75,electronics,purchase,chip,Dallas,TX,USA,USD,FALSE,FALSE,32,Female,FALSE,approved,ElectroZone
+TXN000049,2024-03-07T19:08:56Z,49.5,apparel,purchase,swipe,San Diego,CA,USA,USD,FALSE,FALSE,44,Male,FALSE,approved,FashionBay
+TXN000050,2024-06-20T07:36:29Z,17.95,restaurant,purchase,contactless,San Francisco,CA,USA,USD,FALSE,FALSE,40,Female,FALSE,approved,TinyCafe
+TXN000051,2024-05-21T10:14:12Z,34.87,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,43,Female,FALSE,approved,QuickMart
+TXN000052,2024-06-02T12:55:19Z,98.5,apparel,purchase,contactless,Dallas,TX,USA,USD,FALSE,FALSE,38,Female,FALSE,approved,FashionBay
+TXN000053,2024-04-18T18:37:08Z,215.99,electronics,purchase,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,50,Male,FALSE,approved,ElectroZone
+TXN000054,2024-04-01T09:23:41Z,12.12,grocery,purchase,chip,Houston,TX,USA,USD,FALSE,FALSE,43,Female,FALSE,approved,FarmFresh
+TXN000055,2024-03-17T15:44:00Z,56.79,fuel,purchase,swipe,Atlanta,GA,USA,USD,FALSE,FALSE,42,Female,FALSE,approved,FuelExpress
+TXN000056,2024-05-30T20:05:33Z,74.25,gifts,purchase,chip,Orlando,FL,USA,USD,FALSE,FALSE,29,Male,FALSE,approved,GiftWorld
+TXN000057,2024-02-13T17:15:18Z,23.4,restaurant,purchase,swipe,Seattle,WA,USA,USD,FALSE,FALSE,61,Male,FALSE,approved,TinyCafe
+TXN000058,2024-01-15T22:52:15Z,9.99,books,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,43,Male,FALSE,approved,BookNest
+TXN000059,2024-06-10T13:11:08Z,205.75,apparel,purchase,contactless,Dallas,TX,USA,USD,FALSE,FALSE,57,Male,FALSE,approved,FashionBay
+TXN000060,2024-03-23T07:30:50Z,1124.6,travel,purchase,online,Berlin,,DEU,EUR,TRUE,FALSE,18,Female,TRUE,approved,Sunshine Travel
+TXN000061,2024-05-11T19:27:28Z,2585.33,travel,purchase,online,London,,GBR,GBP,TRUE,FALSE,34,Other,TRUE,approved,SkyTravel
+TXN000062,2024-06-16T08:31:12Z,18500,automotive,purchase,manual,San Francisco,CA,USA,USD,FALSE,TRUE,34,Female,FALSE,declined,LuxuryAuto
+TXN000063,2024-04-14T16:45:26Z,11322.19,financial,transfer,online,Zurich,,CHE,EUR,TRUE,TRUE,31,Male,TRUE,declined,CryptoExchange
+TXN000064,2024-01-23T12:10:04Z,78.63,fuel,purchase,swipe,Cleveland,OH,USA,USD,FALSE,FALSE,57,Female,FALSE,approved,FuelExpress
+TXN000065,2024-03-06T20:31:45Z,32.99,gifts,refund,manual,Orlando,FL,USA,USD,FALSE,FALSE,35,Male,FALSE,approved,GiftWorld
+TXN000066,2024-06-15T14:14:22Z,28600,financial,withdrawal,manual,Miami,FL,USA,USD,FALSE,TRUE,53,Male,FALSE,declined,CryptoExchange
+TXN000067,2024-05-02T16:19:50Z,47.88,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,43,Female,FALSE,approved,QuickMart
+TXN000068,2024-03-30T10:48:21Z,79500,automotive,purchase,manual,San Francisco,CA,USA,USD,FALSE,FALSE,26,Male,FALSE,approved,LuxuryAuto
+TXN000069,2024-02-26T11:22:35Z,2194.5,travel,purchase,online,Sydney,NSW,AUS,AUD,TRUE,FALSE,43,Male,TRUE,approved,Sunshine Travel
+TXN000070,2024-01-02T23:10:15Z,3456.8,travel,purchase,online,Toronto,ON,CAN,CAD,FALSE,FALSE,32,Male,TRUE,approved,SkyTravel
+TXN000071,2024-05-09T21:50:05Z,400,,withdrawal,manual,San Jose,CA,USA,USD,FALSE,FALSE,47,Female,FALSE,approved,ATMWithdrawal
+TXN000072,2024-02-14T18:32:55Z,0.99,books,refund,manual,Boston,MA,USA,USD,FALSE,FALSE,21,Male,FALSE,approved,BookNest
+TXN000073,2024-04-05T07:02:40Z,0.03,miscellaneous,purchase,manual,,,,USD,FALSE,FALSE,47,Male,FALSE,pending,EdgeCaseStore
+TXN000074,2024-02-01T11:11:25Z,16327.12,financial,transfer,online,Zurich,,CHE,USD,TRUE,TRUE,43,Male,TRUE,declined,CryptoExchange
+TXN000075,2024-03-14T15:05:31Z,149.99,electronics,purchase,chip,Phoenix,AZ,USA,USD,FALSE,FALSE,41,Female,FALSE,approved,ElectroZone
+TXN000076,2024-04-16T08:09:56Z,2.33,miscellaneous,refund,manual,,,,USD,FALSE,FALSE,36,Female,FALSE,pending,EdgeCaseStore
+TXN000077,2024-06-12T19:07:03Z,86,apparel,purchase,contactless,Dallas,TX,USA,USD,FALSE,FALSE,40,Female,FALSE,approved,FashionBay
+TXN000078,2024-03-19T13:15:00Z,53.25,fuel,purchase,swipe,Cleveland,OH,USA,USD,FALSE,FALSE,22,Male,FALSE,approved,FuelExpress
+TXN000079,2024-05-18T15:22:44Z,17.67,grocery,purchase,chip,Houston,TX,USA,USD,FALSE,FALSE,28,Female,FALSE,approved,FarmFresh
+TXN000080,2024-01-25T06:56:30Z,1.99,miscellaneous,purchase,manual,,,,USD,FALSE,FALSE,56,Male,FALSE,pending,EdgeCaseStore
+TXN000081,2024-06-09T16:02:44Z,15.87,books,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,52,Male,FALSE,approved,BookNest
+TXN000082,2024-03-01T10:00:11Z,250,,withdrawal,manual,Austin,TX,USA,USD,FALSE,FALSE,27,Female,FALSE,approved,ATMWithdrawal
+TXN000083,2024-02-23T22:13:42Z,1895.9,travel,purchase,online,Sydney,NSW,AUS,AUD,TRUE,FALSE,40,Female,TRUE,approved,Sunshine Travel
+TXN000084,2024-04-28T09:03:20Z,129000,automotive,purchase,manual,San Francisco,CA,USA,USD,FALSE,TRUE,46,Male,FALSE,declined,LuxuryAuto
+TXN000085,2024-05-19T07:18:17Z,27.15,restaurant,purchase,swipe,Seattle,WA,USA,USD,FALSE,FALSE,27,Female,FALSE,approved,TinyCafe
+TXN000086,2024-06-07T20:25:17Z,32000,financial,transfer,online,Zurich,,CHE,USD,TRUE,TRUE,46,Female,TRUE,declined,CryptoExchange
+TXN000087,2024-02-17T08:47:54Z,180,,withdrawal,manual,Austin,TX,USA,USD,FALSE,FALSE,26,Female,FALSE,approved,ATMWithdrawal
+TXN000088,2024-04-09T17:31:35Z,2500,,withdrawal,manual,San Jose,CA,USA,USD,FALSE,FALSE,21,Male,FALSE,approved,ATMWithdrawal
+TXN000089,2024-01-11T09:23:30Z,127,apparel,refund,manual,Dallas,TX,USA,USD,FALSE,FALSE,48,Male,FALSE,approved,FashionBay
+TXN000090,2024-02-28T18:11:32Z,1250.5,travel,purchase,online,Toronto,ON,CAN,CAD,FALSE,FALSE,38,Male,TRUE,approved,SkyTravel
+TXN000091,2024-04-13T12:59:14Z,980,travel,refund,online,Berlin,,DEU,EUR,TRUE,FALSE,46,Female,TRUE,approved,Sunshine Travel
+TXN000092,2024-05-28T17:22:25Z,102500,automotive,purchase,manual,San Francisco,CA,USA,USD,FALSE,TRUE,30,Female,FALSE,declined,LuxuryAuto
+TXN000093,2024-06-01T15:37:45Z,182.3,apparel,purchase,contactless,Dallas,TX,USA,USD,FALSE,FALSE,40,Female,FALSE,approved,FashionBay
+TXN000094,2024-02-04T20:51:03Z,109.8,electronics,refund,manual,Phoenix,AZ,USA,USD,FALSE,FALSE,33,Male,FALSE,approved,ElectroZone
+TXN000095,2024-01-16T19:19:14Z,19.55,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,31,Female,FALSE,approved,QuickMart
+TXN000096,2024-03-20T13:56:17Z,61.3,fuel,purchase,swipe,Cleveland,OH,USA,USD,FALSE,FALSE,30,Female,FALSE,approved,FuelExpress
+TXN000097,2024-05-13T11:33:46Z,1422.5,travel,refund,online,London,,GBR,GBP,TRUE,FALSE,58,Female,TRUE,approved,SkyTravel
+TXN000098,2024-06-03T08:28:11Z,1650,travel,purchase,online,London,,GBR,GBP,TRUE,FALSE,36,Female,TRUE,approved,SkyTravel
+TXN000099,2024-04-27T21:27:21Z,0.01,miscellaneous,refund,manual,,,,USD,FALSE,FALSE,29,Female,FALSE,pending,EdgeCaseStore
+TXN000100,2024-02-22T14:12:27Z,209.99,electronics,purchase,chip,Phoenix,AZ,USA,USD,FALSE,FALSE,27,Female,FALSE,approved,ElectroZone
+TXN000300,2024-05-02T14:18:43Z,42.53,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,51,Female,FALSE,approved,QuickMart
+TXN000301,2024-04-10T19:21:06Z,183.99,apparel,purchase,swipe,Dallas,TX,USA,USD,FALSE,FALSE,23,Female,FALSE,approved,FashionBay
+TXN000302,2024-03-15T21:33:20Z,724.5,electronics,purchase,contactless,Seattle,WA,USA,USD,FALSE,FALSE,18,Female,FALSE,approved,ElectroZone
+TXN000303,2024-02-25T08:11:10Z,2197.05,travel,purchase,online,Berlin,BE,DEU,EUR,TRUE,FALSE,29,Female,TRUE,approved,Sunshine Travel
+TXN000304,2024-04-29T20:47:55Z,3401.6,travel,purchase,online,London,,GBR,GBP,TRUE,FALSE,35,Female,TRUE,approved,SkyTravel
+TXN000305,2024-03-01T13:05:33Z,139.2,apparel,purchase,chip,Dallas,TX,USA,USD,FALSE,FALSE,47,Male,FALSE,approved,FashionBay
+TXN000306,2024-05-07T17:02:11Z,19.95,books,purchase,online,Austin,TX,USA,USD,FALSE,FALSE,19,Female,TRUE,approved,BookNest
+TXN000307,2024-04-03T10:09:51Z,83.6,grocery,purchase,swipe,Denver,CO,USA,USD,FALSE,FALSE,63,Female,FALSE,approved,FarmFresh
+TXN000308,2024-03-17T15:13:18Z,37.48,gifts,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,31,Male,FALSE,approved,GiftWorld
+TXN000309,2024-04-23T12:27:39Z,52.11,fuel,purchase,contactless,Phoenix,AZ,USA,USD,FALSE,FALSE,43,Female,FALSE,approved,FuelExpress
+TXN000310,2024-02-12T21:49:09Z,16.32,restaurant,purchase,swipe,Portland,OR,USA,USD,FALSE,FALSE,41,Female,FALSE,approved,TinyCafe
+TXN000311,2024-06-12T09:15:00Z,10000,financial,transfer,online,New York,NY,USA,USD,FALSE,TRUE,47,Male,TRUE,declined,CryptoExchange
+TXN000312,2024-05-10T15:45:12Z,15999.99,automotive,purchase,manual,San Jose,CA,USA,USD,FALSE,TRUE,43,Male,FALSE,declined,LuxuryAuto
+TXN000313,2024-03-29T07:28:44Z,3287.5,travel,purchase,online,Munich,BY,DEU,EUR,TRUE,FALSE,25,Female,TRUE,approved,Sunshine Travel
+TXN000314,2024-06-01T16:10:33Z,210.5,apparel,refund,online,Dallas,TX,USA,USD,FALSE,FALSE,18,Male,TRUE,approved,FashionBay
+TXN000315,2024-05-18T11:25:07Z,400,financial,withdrawal,manual,Miami,FL,USA,USD,FALSE,FALSE,21,Female,FALSE,approved,ATM Withdrawal
+TXN000316,2024-02-28T22:13:59Z,1864,travel,purchase,online,Toronto,ON,CAN,CAD,FALSE,FALSE,18,Male,TRUE,approved,SkyTravel
+TXN000317,2024-05-14T08:32:14Z,28.49,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,18,Female,FALSE,approved,QuickMart
+TXN000318,2024-04-17T20:17:14Z,17999.99,financial,transfer,online,New York,NY,USA,USD,FALSE,TRUE,38,Male,TRUE,declined,CryptoExchange
+TXN000319,2024-05-25T17:16:25Z,49744,automotive,purchase,manual,San Francisco,CA,USA,USD,FALSE,TRUE,37,Female,FALSE,declined,LuxuryAuto
+TXN000320,2024-05-05T09:01:55Z,1289.5,electronics,purchase,chip,San Diego,CA,USA,USD,FALSE,FALSE,42,Male,FALSE,approved,ElectroZone
+TXN000321,2024-03-18T18:44:44Z,349.99,electronics,purchase,contactless,Seattle,WA,USA,USD,FALSE,FALSE,27,Male,FALSE,approved,ElectroZone
+TXN000322,2024-04-01T12:22:25Z,65.77,grocery,purchase,swipe,Houston,TX,USA,USD,FALSE,FALSE,46,Female,FALSE,approved,FarmFresh
+TXN000323,2024-03-11T07:04:12Z,119.95,gifts,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,39,Female,FALSE,approved,GiftWorld
+TXN000324,2024-06-13T13:40:40Z,8.45,books,purchase,online,Austin,TX,USA,USD,FALSE,FALSE,23,Female,TRUE,approved,BookNest
+TXN000325,2024-05-17T11:21:45Z,1650,travel,purchase,online,Toronto,ON,CAN,CAD,FALSE,FALSE,38,Male,TRUE,approved,SkyTravel
+TXN000326,2024-04-18T16:08:35Z,43.99,fuel,purchase,contactless,Phoenix,AZ,USA,USD,FALSE,FALSE,39,Female,FALSE,approved,FuelExpress
+TXN000327,2024-03-10T21:01:29Z,21.89,restaurant,purchase,swipe,Portland,OR,USA,USD,FALSE,FALSE,52,Male,FALSE,approved,TinyCafe
+TXN000328,2024-06-05T14:54:22Z,900,financial,withdrawal,manual,Orlando,FL,USA,USD,FALSE,FALSE,51,Female,FALSE,approved,ATM Withdrawal
+TXN000329,2024-02-20T12:20:13Z,2399.99,electronics,purchase,chip,San Diego,CA,USA,USD,FALSE,FALSE,39,Male,FALSE,approved,ElectroZone
+TXN000330,2024-06-03T10:45:39Z,2.15,miscellaneous,purchase,manual,,,,USD,,FALSE,38,Male,FALSE,approved,EdgeCaseStore
+TXN000331,2024-05-13T16:52:01Z,75.69,gifts,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,53,Male,FALSE,approved,GiftWorld
+TXN000332,2024-03-26T12:25:10Z,52.37,grocery,refund,manual,Houston,TX,USA,USD,FALSE,FALSE,18,Female,FALSE,pending,FarmFresh
+TXN000333,2024-04-22T18:33:55Z,15.97,books,purchase,online,Austin,TX,USA,USD,FALSE,FALSE,45,Female,TRUE,approved,BookNest
+TXN000334,2024-05-20T20:16:21Z,8.42,restaurant,refund,manual,Portland,OR,USA,USD,FALSE,FALSE,55,Male,FALSE,pending,TinyCafe
+TXN000335,2024-05-28T17:33:13Z,99.99,fuel,refund,manual,Phoenix,AZ,USA,USD,FALSE,FALSE,27,Male,FALSE,pending,FuelExpress
+TXN000336,2024-06-08T10:21:52Z,1500,financial,withdrawal,manual,Miami,FL,USA,USD,FALSE,FALSE,38,Female,FALSE,approved,ATM Withdrawal
+TXN000337,2024-03-19T07:41:36Z,99999.99,automotive,purchase,manual,San Francisco,CA,USA,USD,FALSE,TRUE,57,Male,FALSE,declined,LuxuryAuto
+TXN000338,2024-02-14T10:22:14Z,1499,electronics,purchase,chip,San Diego,CA,USA,USD,FALSE,FALSE,43,Male,FALSE,approved,ElectroZone
+TXN000339,2024-06-15T16:25:12Z,54.12,grocery,purchase,swipe,Chicago,IL,USA,USD,FALSE,FALSE,65,Male,FALSE,approved,QuickMart
+TXN000340,2024-04-28T18:44:09Z,2199.5,travel,purchase,online,Melbourne,VIC,AUS,AUD,TRUE,FALSE,41,Male,TRUE,approved,SkyTravel
+TXN000341,2024-03-12T09:23:28Z,23.59,books,purchase,online,Austin,TX,USA,USD,FALSE,FALSE,28,Male,TRUE,approved,BookNest
+TXN000342,2024-04-13T07:44:52Z,0.35,miscellaneous,purchase,online,,,,USD,,FALSE,39,Male,TRUE,approved,EdgeCaseStore
+TXN000343,2024-05-16T14:18:23Z,2877,travel,purchase,online,London,,GBR,GBP,TRUE,FALSE,36,Male,TRUE,approved,SkyTravel
+TXN000344,2024-02-23T12:49:17Z,600,financial,withdrawal,manual,Orlando,FL,USA,USD,FALSE,FALSE,41,Male,FALSE,approved,ATM Withdrawal
+TXN000345,2024-03-16T09:51:33Z,54999,automotive,purchase,manual,San Francisco,CA,USA,USD,FALSE,FALSE,60,Female,FALSE,approved,LuxuryAuto
+TXN000346,2024-06-06T18:09:43Z,67.22,grocery,purchase,chip,Houston,TX,USA,USD,FALSE,FALSE,49,Female,FALSE,approved,FarmFresh
+TXN000347,2024-05-22T09:55:20Z,49.95,gifts,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,19,Female,FALSE,approved,GiftWorld
+TXN000348,2024-03-22T10:12:30Z,67.34,fuel,purchase,contactless,Phoenix,AZ,USA,USD,FALSE,FALSE,44,Male,FALSE,approved,FuelExpress
+TXN000349,2024-02-18T14:22:21Z,14.55,restaurant,purchase,swipe,Portland,OR,USA,USD,FALSE,FALSE,45,Male,FALSE,approved,TinyCafe
+TXN0004001,2024-06-25T14:16:34Z,67.32,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,30,Male,FALSE,approved,QuickMart
+TXN0004002,2024-07-02T17:54:41Z,82.91,apparel,purchase,swipe,Dallas,TX,USA,USD,FALSE,FALSE,28,Male,FALSE,approved,FashionBay
+TXN0004003,2024-06-28T11:39:15Z,19.99,books,purchase,online,Seattle,WA,USA,USD,FALSE,FALSE,18,Female,TRUE,approved,BookNest
+TXN0004004,2024-07-04T13:25:08Z,45.77,fuel,purchase,contactless,Houston,TX,USA,USD,FALSE,FALSE,38,Female,FALSE,approved,FuelExpress
+TXN0004005,2024-07-04T19:42:31Z,13.85,restaurant,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,57,Female,FALSE,approved,TinyCafe
+TXN0004006,2024-06-30T09:03:27Z,1125.5,travel,purchase,online,Berlin,,DEU,EUR,TRUE,FALSE,36,Female,TRUE,approved,SkyTravel
+TXN0004007,2024-06-30T17:30:42Z,49.95,gifts,purchase,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,36,Female,FALSE,approved,GiftWorld
+TXN0004008,2024-07-03T18:13:51Z,1448,travel,purchase,online,London,,GBR,GBP,TRUE,FALSE,31,Female,TRUE,approved,Sunshine Travel
+TXN0004009,2024-07-05T20:45:02Z,289.99,electronics,purchase,chip,Atlanta,GA,USA,USD,FALSE,FALSE,49,Male,FALSE,approved,ElectroZone
+TXN0004010,2024-07-02T23:41:16Z,54.2,fuel,purchase,contactless,Miami,FL,USA,USD,FALSE,FALSE,57,Female,FALSE,approved,FuelExpress
+TXN0004011,2024-06-26T06:48:12Z,11200,financial,transfer,online,San Francisco,CA,USA,USD,FALSE,FALSE,23,Other,TRUE,approved,CryptoExchange
+TXN0004012,2024-07-04T12:17:29Z,7.52,books,refund,online,Seattle,WA,USA,USD,FALSE,FALSE,42,Male,TRUE,approved,BookNest
+TXN0004013,2024-07-06T09:35:22Z,153.99,gifts,purchase,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,18,Male,FALSE,approved,GiftWorld
+TXN0004014,2024-06-29T21:23:45Z,37.85,grocery,purchase,contactless,Chicago,IL,USA,USD,FALSE,FALSE,47,Female,FALSE,approved,QuickMart
+TXN0004015,2024-07-05T13:47:36Z,24.1,restaurant,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,56,Female,FALSE,approved,TinyCafe
+TXN0004016,2024-06-27T17:52:58Z,41.67,fuel,purchase,swipe,Miami,FL,USA,USD,FALSE,FALSE,25,Male,FALSE,approved,FuelExpress
+TXN0004017,2024-07-01T08:39:11Z,45999.99,automotive,purchase,chip,Los Angeles,CA,USA,USD,FALSE,TRUE,40,Female,FALSE,declined,LuxuryAuto
+TXN0004018,2024-07-07T17:48:13Z,18800,financial,transfer,online,San Francisco,CA,USA,USD,FALSE,TRUE,57,Male,TRUE,declined,CryptoExchange
+TXN0004019,2024-06-30T20:02:11Z,5.99,gifts,refund,manual,Phoenix,AZ,USA,USD,FALSE,FALSE,49,Male,FALSE,approved,GiftWorld
+TXN0004020,2024-07-03T15:21:19Z,29.49,books,purchase,online,Seattle,WA,USA,USD,FALSE,FALSE,29,Male,TRUE,approved,BookNest
+TXN0004021,2024-06-28T22:07:39Z,51.6,fuel,purchase,swipe,Miami,FL,USA,USD,FALSE,FALSE,57,Male,FALSE,approved,FuelExpress
+TXN0004022,2024-07-06T18:22:07Z,199.99,electronics,purchase,chip,Atlanta,GA,USA,USD,FALSE,FALSE,46,Female,FALSE,approved,ElectroZone
+TXN0004023,2024-06-25T11:15:42Z,83.41,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,49,Female,FALSE,approved,QuickMart
+TXN0004024,2024-07-01T16:12:55Z,159.99,gifts,purchase,contactless,Phoenix,AZ,USA,USD,FALSE,TRUE,36,Female,FALSE,declined,GiftWorld
+TXN0004025,2024-07-08T11:59:04Z,99999.99,financial,transfer,online,San Francisco,CA,USA,USD,FALSE,TRUE,42,Female,TRUE,declined,CryptoExchange
+TXN0004026,2024-07-02T20:41:27Z,4.99,books,purchase,online,Seattle,WA,USA,USD,FALSE,FALSE,50,Female,TRUE,approved,BookNest
+TXN0004027,2024-07-04T17:50:13Z,69.95,electronics,purchase,chip,Atlanta,GA,USA,USD,FALSE,FALSE,18,Male,FALSE,approved,ElectroZone
+TXN0004028,2024-07-08T18:36:22Z,2250,travel,purchase,online,New York,NY,USA,USD,FALSE,FALSE,54,Female,TRUE,approved,SkyTravel
+TXN0004029,2024-07-09T08:21:10Z,128950,automotive,purchase,manual,Los Angeles,CA,USA,USD,FALSE,TRUE,26,Male,FALSE,declined,LuxuryAuto
+TXN0004030,2024-07-07T15:10:55Z,57.1,fuel,purchase,swipe,Miami,FL,USA,USD,FALSE,FALSE,36,Male,FALSE,approved,FuelExpress
+TXN0004031,2024-07-10T13:45:37Z,75.95,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,63,Male,FALSE,approved,QuickMart
+TXN0004032,2024-07-08T12:27:19Z,9.9,restaurant,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,46,Male,FALSE,approved,TinyCafe
+TXN0004033,2024-07-07T13:02:48Z,3.99,books,refund,online,Seattle,WA,USA,USD,FALSE,FALSE,35,Female,TRUE,approved,BookNest
+TXN0004034,2024-07-08T19:29:41Z,112.55,apparel,purchase,contactless,Dallas,TX,USA,USD,FALSE,FALSE,38,Male,FALSE,approved,FashionBay
+TXN0004035,2024-07-09T20:53:12Z,229.75,apparel,purchase,swipe,Dallas,TX,USA,USD,FALSE,TRUE,47,Female,FALSE,declined,FashionBay
+TXN0004036,2024-07-10T10:25:05Z,39.99,electronics,purchase,chip,Atlanta,GA,USA,USD,FALSE,FALSE,44,Male,FALSE,approved,ElectroZone
+TXN0004037,2024-07-09T15:14:09Z,2.49,books,refund,online,Seattle,WA,USA,USD,FALSE,FALSE,48,Male,TRUE,approved,BookNest
+TXN0004038,2024-07-08T17:09:29Z,97.44,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,30,Female,FALSE,approved,QuickMart
+TXN0004039,2024-07-10T09:33:22Z,31.22,fuel,purchase,swipe,Miami,FL,USA,USD,FALSE,FALSE,39,Female,FALSE,approved,FuelExpress
+TXN0004040,2024-07-11T13:57:08Z,3299,travel,purchase,online,London,,GBR,GBP,TRUE,FALSE,37,Male,TRUE,approved,Sunshine Travel
+TXN0004041,2024-07-10T21:40:01Z,99.99,gifts,purchase,contactless,Phoenix,AZ,USA,USD,FALSE,FALSE,32,Female,FALSE,approved,GiftWorld
+TXN0004042,2024-07-11T19:02:34Z,5.83,restaurant,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,42,Male,FALSE,approved,TinyCafe
+TXN0004043,2024-07-12T08:15:46Z,60.4,fuel,purchase,swipe,Miami,FL,USA,USD,FALSE,FALSE,39,Female,FALSE,approved,FuelExpress
+TXN0004044,2024-07-11T07:08:28Z,41.09,apparel,purchase,swipe,Dallas,TX,USA,USD,FALSE,FALSE,32,Male,FALSE,approved,FashionBay
+TXN0004045,2024-07-12T17:33:12Z,6.5,restaurant,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,24,Other,FALSE,approved,TinyCafe
+TXN0004046,2024-07-13T11:56:23Z,199.95,electronics,purchase,chip,Atlanta,GA,USA,USD,FALSE,FALSE,46,Female,FALSE,approved,ElectroZone
+TXN0004047,2024-07-13T21:22:34Z,105200,automotive,purchase,manual,Los Angeles,CA,USA,USD,FALSE,TRUE,44,Female,FALSE,declined,LuxuryAuto
+TXN0004048,2024-07-14T10:45:11Z,0.99,books,refund,manual,Seattle,WA,USA,USD,FALSE,FALSE,31,Female,FALSE,pending,BookNest
+TXN0004049,2024-07-15T13:17:24Z,61.2,apparel,purchase,contactless,Dallas,TX,USA,USD,FALSE,FALSE,37,Female,FALSE,approved,FashionBay
+TXN0004050,2024-07-15T18:11:38Z,52.8,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,30,Male,FALSE,approved,QuickMart
+TXN0004051,2024-03-15T14:30:06Z,38.06,gifts,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,31,Male,FALSE,approved,GiftWorld
+TXN0004052,2024-06-27T19:36:13Z,41.92,fuel,purchase,swipe,Miami,FL,USA,USD,FALSE,FALSE,18,Female,FALSE,approved,FuelExpress
+TXN0004053,2024-07-05T16:02:39Z,26.5,restaurant,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,44,Male,FALSE,approved,TinyCafe
+TXN0004054,2024-07-09T09:25:01Z,38.07,apparel,purchase,swipe,Dallas,TX,USA,USD,FALSE,FALSE,32,Female,FALSE,pending,FashionBay
+TXN0004055,2024-07-08T10:14:05Z,39.69,electronics,purchase,chip,Atlanta,GA,USA,USD,FALSE,FALSE,49,Female,FALSE,pending,ElectroZone
+TXN0004056,2024-05-09T10:33:45Z,26.78,restaurant,purchase,contactless,San Francisco,CA,USA,USD,FALSE,FALSE,35,Female,FALSE,approved,TinyCafe
+TXN0004057,2024-07-11T13:46:23Z,37.99,electronics,purchase,chip,Atlanta,GA,USA,USD,FALSE,FALSE,18,Female,FALSE,pending,ElectroZone
+TXN0004058,2024-07-10T11:03:26Z,31.76,fuel,purchase,swipe,Melbourne,VIC,USA,USD,FALSE,FALSE,38,Male,FALSE,pending,FuelExpress
+TXN0004059,2024-07-03T13:44:22Z,30.3,books,purchase,online,Seattle,WA,USA,USD,FALSE,FALSE,50,Male,TRUE,approved,BookNest
+TXN0004060,2024-05-20T07:25:46Z,34.83,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,41,Female,FALSE,pending,QuickMart
+TXN0004061,2024-03-04T16:38:33Z,34.54,gifts,refund,manual,Houston,TX,USA,USD,FALSE,FALSE,54,Male,FALSE,pending,GiftWorld
+TXN0004062,2024-05-30T09:02:17Z,28.98,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,56,Male,FALSE,pending,QuickMart
+TXN0004063,2024-05-17T05:11:39Z,28.93,restaurant,purchase,swipe,Seattle,WA,USA,USD,FALSE,FALSE,30,Female,FALSE,pending,TinyCafe
+TXN0004064,2024-07-08T06:18:49Z,31.24,fuel,purchase,swipe,Miami,FL,USA,USD,FALSE,FALSE,26,Male,FALSE,pending,FuelExpress
+TXN0004065,2024-06-28T17:09:03Z,42.92,fuel,purchase,swipe,Miami,FL,USA,USD,FALSE,FALSE,49,Male,FALSE,pending,FuelExpress
+TXN0004066,2024-04-30T15:50:38Z,41.62,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,31,Female,FALSE,pending,FarmFresh
+TXN0004067,2024-07-04T16:13:49Z,22.2,restaurant,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,45,Female,FALSE,pending,TinyCafe
+TXN0004068,2024-06-28T17:43:35Z,41.98,fuel,purchase,swipe,Dallas,TX,USA,USD,FALSE,FALSE,49,Male,FALSE,pending,FuelExpress
+TXN0004069,2024-07-05T12:49:41Z,24.93,restaurant,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,29,Male,FALSE,pending,TinyCafe
+TXN0004070,2024-07-08T11:29:37Z,44.57,electronics,purchase,chip,Atlanta,GA,USA,USD,FALSE,FALSE,33,Female,FALSE,pending,ElectroZone
+TXN0004071,2024-03-13T09:10:40Z,22.99,books,purchase,online,Austin,TX,USA,USD,FALSE,FALSE,28,Female,TRUE,pending,BookNest
+TXN0004072,2024-05-21T12:07:34Z,32.47,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,25,Female,FALSE,pending,QuickMart
+TXN0004073,2024-03-14T12:42:16Z,21.46,books,purchase,online,Austin,TX,USA,USD,FALSE,FALSE,18,Female,TRUE,pending,BookNest
+TXN0004074,2024-07-12T09:31:33Z,37.26,electronics,purchase,chip,Atlanta,GA,USA,USD,FALSE,FALSE,41,Male,FALSE,pending,ElectroZone
+TXN0004075,2024-03-12T09:24:41Z,24.43,books,purchase,online,Austin,TX,USA,USD,FALSE,FALSE,44,Female,TRUE,approved,BookNest
+TXN0004076,2024-06-30T23:04:32Z,37.09,grocery,purchase,contactless,Phoenix,AZ,USA,USD,FALSE,FALSE,32,Male,FALSE,pending,QuickMart
+TXN0004077,2024-07-04T15:44:50Z,30.63,books,purchase,online,Seattle,WA,USA,USD,FALSE,FALSE,38,Male,TRUE,pending,BookNest
+TXN0004078,2024-05-12T11:53:33Z,27.81,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,45,Male,FALSE,approved,QuickMart
+TXN0004079,2024-06-26T19:59:36Z,40.36,fuel,purchase,swipe,Miami,FL,USA,USD,FALSE,FALSE,41,Male,FALSE,pending,FuelExpress
+TXN0004080,2024-03-13T05:27:42Z,24.64,books,purchase,online,Dallas,TX,USA,USD,FALSE,FALSE,50,Female,TRUE,approved,BookNest
+TXN0004081,2024-05-31T17:10:12Z,72.61,gifts,purchase,chip,Orlando,FL,USA,USD,FALSE,FALSE,38,Male,FALSE,pending,GiftWorld
+TXN0004082,2024-07-03T16:23:31Z,80.84,apparel,purchase,swipe,Dallas,TX,USA,USD,FALSE,FALSE,72,Female,FALSE,pending,FashionBay
+TXN0004083,2024-06-25T09:14:37Z,80.32,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,33,Female,FALSE,pending,QuickMart
+TXN0004084,2024-06-23T09:02:13Z,87.3,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,63,Other,FALSE,pending,QuickMart
+TXN0004085,2024-07-09T16:00:28Z,90.11,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,20,Female,FALSE,pending,FarmFresh
+TXN0004086,2024-03-20T15:03:13Z,65.09,fuel,purchase,swipe,Houston,TX,USA,USD,FALSE,FALSE,55,Male,FALSE,pending,FuelExpress
+TXN0004087,2024-06-09T13:30:40Z,61.79,books,refund,online,Boston,MA,USA,USD,FALSE,FALSE,46,Male,TRUE,approved,BookNest
+TXN0004088,2024-07-10T09:59:10Z,76.88,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,60,Female,FALSE,pending,QuickMart
+TXN0004089,2024-05-11T13:14:20Z,78.13,gifts,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,35,Female,FALSE,approved,GiftWorld
+TXN0004090,2024-03-30T15:25:30Z,70.31,grocery,purchase,chip,Seattle,WA,USA,USD,FALSE,FALSE,50,Female,FALSE,pending,FarmFresh
+TXN0004091,2024-06-12T22:53:55Z,82.77,apparel,purchase,contactless,Dallas,TX,USA,USD,FALSE,FALSE,41,Male,FALSE,approved,FashionBay
+TXN0004092,2024-07-03T19:37:17Z,84.79,apparel,purchase,swipe,Dallas,TX,USA,USD,FALSE,FALSE,49,Female,FALSE,pending,FashionBay
+TXN0004093,2024-01-21T12:57:16Z,82.72,fuel,purchase,swipe,Boston,MA,USA,USD,FALSE,FALSE,67,Female,FALSE,pending,FuelExpress
+TXN0004094,2024-07-05T20:43:21Z,72.3,electronics,purchase,chip,Atlanta,GA,USA,USD,FALSE,FALSE,38,Other,FALSE,pending,ElectroZone
+TXN0004095,2024-03-21T13:05:52Z,66.16,fuel,purchase,contactless,Phoenix,AZ,USA,USD,FALSE,FALSE,40,Male,FALSE,pending,FuelExpress
+TXN0004096,2024-06-26T13:30:16Z,79.56,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,45,Male,FALSE,approved,QuickMart
+TXN0004097,2024-04-02T08:09:51Z,72.31,grocery,purchase,swipe,Denver,CO,USA,USD,FALSE,FALSE,37,Female,FALSE,pending,FarmFresh
+TXN0004098,2024-06-12T17:30:15Z,81.97,apparel,purchase,swipe,Toronto,ON,USA,USD,FALSE,FALSE,23,Female,FALSE,approved,FashionBay
+TXN0004099,2024-06-12T21:02:44Z,94.25,apparel,purchase,contactless,Dallas,TX,USA,USD,FALSE,FALSE,60,Female,FALSE,approved,FashionBay
+TXN0004100,2024-05-14T18:35:58Z,81.47,gifts,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,50,Female,FALSE,pending,GiftWorld
+TXN0004101,2024-03-27T10:29:32Z,63.24,grocery,purchase,chip,Zurich,,USA,USD,FALSE,FALSE,42,Female,FALSE,pending,FarmFresh
+TXN0004102,2024-01-25T14:25:04Z,76.68,fuel,purchase,swipe,Cleveland,OH,USA,USD,FALSE,FALSE,28,Male,FALSE,pending,FuelExpress
+TXN0004103,2024-05-14T14:16:57Z,72.62,gifts,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,54,Female,FALSE,approved,GiftWorld
+TXN0004104,2024-06-16T22:30:33Z,86.4,apparel,purchase,swipe,San Diego,CA,USA,USD,FALSE,FALSE,44,Female,FALSE,pending,FashionBay
+TXN0004105,2024-06-12T18:51:56Z,84.45,apparel,purchase,swipe,New York,NY,USA,USD,FALSE,FALSE,46,Male,FALSE,approved,FashionBay
+TXN0004106,2024-03-20T11:33:52Z,64.31,fuel,purchase,contactless,Seattle,WA,USA,USD,FALSE,FALSE,37,Female,FALSE,pending,FuelExpress
+TXN0004107,2024-07-05T20:22:32Z,70.65,electronics,purchase,chip,San Jose,CA,USA,USD,FALSE,FALSE,34,Other,FALSE,pending,ElectroZone
+TXN0004108,2024-06-07T15:03:19Z,69.84,grocery,purchase,chip,Houston,TX,USA,USD,FALSE,FALSE,18,Male,FALSE,pending,QuickMart
+TXN0004109,2024-06-13T19:09:51Z,94.1,apparel,purchase,contactless,Dallas,TX,USA,USD,FALSE,FALSE,39,Female,FALSE,pending,FashionBay
+TXN0004110,2024-03-27T12:48:56Z,68.02,grocery,purchase,chip,London,,USA,USD,FALSE,FALSE,35,Female,FALSE,pending,FarmFresh
+TXN0004111,2024-02-12T07:38:28Z,674.52,financial,withdrawal,manual,Dallas,TX,USA,USD,FALSE,FALSE,31,Male,FALSE,approved,ATM Network
+TXN0004112,2024-05-31T14:29:41Z,204.61,apparel,refund,online,Dallas,TX,USA,USD,FALSE,FALSE,21,Male,TRUE,pending,FashionBay
+TXN0004113,2024-02-24T14:29:46Z,208.58,electronics,purchase,chip,Melbourne,VIC,USA,USD,FALSE,FALSE,36,Female,FALSE,approved,ElectroZone
+TXN0004114,2024-01-26T15:16:45Z,582.07,financial,withdrawal,manual,Dallas,TX,USA,USD,FALSE,FALSE,26,Male,FALSE,approved,ATM Network
+TXN0004115,2024-02-29T10:58:17Z,236.64,,withdrawal,manual,Austin,TX,USA,USD,FALSE,FALSE,30,Male,FALSE,pending,ATMWithdrawal
+TXN0004116,2024-03-04T18:55:46Z,767.63,electronics,purchase,chip,Dallas,TX,USA,USD,FALSE,FALSE,62,Male,FALSE,pending,ElectroZone
+TXN0004117,2024-02-11T08:15:23Z,686.98,financial,withdrawal,manual,Dallas,TX,USA,USD,FALSE,FALSE,52,Female,FALSE,pending,ATM Network
+TXN0004118,2024-02-14T10:41:24Z,698,financial,withdrawal,manual,Dallas,TX,USA,USD,FALSE,FALSE,20,Male,FALSE,pending,ATM Network
+TXN0004119,2024-05-27T00:22:06Z,215.18,apparel,purchase,swipe,San Diego,CA,USA,USD,FALSE,FALSE,34,Female,FALSE,pending,FashionBay
+TXN0004120,2024-04-01T17:26:50Z,455.12,electronics,purchase,contactless,Dallas,TX,USA,USD,FALSE,FALSE,47,Male,FALSE,pending,ElectroZone
+TXN0004121,2024-07-04T19:19:38Z,285.09,electronics,purchase,chip,Atlanta,GA,USA,USD,FALSE,FALSE,26,Male,FALSE,approved,ElectroZone
+TXN0004122,2024-02-21T09:53:38Z,592.67,financial,withdrawal,manual,Orlando,FL,USA,USD,FALSE,FALSE,39,Male,FALSE,approved,ATM Withdrawal
+TXN0004123,2024-02-21T09:53:20Z,555.45,financial,withdrawal,manual,Orlando,FL,USA,USD,FALSE,FALSE,43,Female,FALSE,approved,ATM Withdrawal
+TXN0004124,2024-05-08T19:02:47Z,434.01,,withdrawal,manual,San Jose,CA,USA,USD,FALSE,FALSE,30,Female,FALSE,pending,ATMWithdrawal
+TXN0004125,2024-03-02T17:53:52Z,845.22,electronics,purchase,chip,Denver,CO,USA,USD,FALSE,FALSE,32,Male,FALSE,pending,ElectroZone
+TXN0004126,2024-01-26T17:04:47Z,594.06,financial,withdrawal,manual,Dallas,TX,USA,USD,FALSE,FALSE,38,Male,FALSE,approved,ATM Network
+TXN0004127,2024-03-17T15:28:25Z,362.99,electronics,purchase,contactless,Seattle,WA,USA,USD,FALSE,FALSE,53,Male,FALSE,pending,ElectroZone
+TXN0004128,2024-05-09T23:28:36Z,423.21,,withdrawal,manual,San Jose,CA,USA,USD,FALSE,FALSE,51,Female,FALSE,pending,EdgeCaseStore
+TXN0004129,2024-07-07T17:03:01Z,234.71,apparel,purchase,swipe,Dallas,TX,USA,USD,FALSE,TRUE,22,Female,FALSE,declined,FashionBay
+TXN0004130,2024-04-18T16:12:15Z,229.18,electronics,purchase,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,49,Female,FALSE,approved,ElectroZone
+TXN0004131,2024-03-17T00:18:01Z,769.28,electronics,purchase,contactless,Seattle,WA,USA,USD,FALSE,FALSE,35,Female,FALSE,pending,ElectroZone
+TXN0004132,2024-03-17T16:24:30Z,334.07,electronics,purchase,contactless,Seattle,WA,USA,USD,FALSE,FALSE,48,Female,FALSE,pending,ElectroZone
+TXN0004133,2024-05-10T00:46:59Z,384.49,,withdrawal,manual,San Jose,CA,USA,USD,FALSE,FALSE,36,Female,FALSE,pending,EdgeCaseStore
+TXN0004134,2024-02-10T13:37:08Z,706.47,financial,withdrawal,manual,Dallas,TX,USA,USD,FALSE,FALSE,43,Female,FALSE,pending,ATM Network
+TXN0004135,2024-02-25T12:56:06Z,627.15,financial,withdrawal,manual,Orlando,FL,USA,USD,FALSE,FALSE,46,Male,FALSE,pending,ATM Withdrawal
+TXN0004136,2024-02-24T15:53:23Z,214,electronics,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,23,Male,FALSE,pending,ElectroZone
+TXN0004137,2024-01-18T07:52:59Z,299.87,financial,withdrawal,manual,Dallas,TX,USA,USD,FALSE,FALSE,23,Male,FALSE,approved,ATM Network
+TXN0004138,2024-01-09T12:41:01Z,392.27,financial,withdrawal,manual,Dallas,TX,USA,USD,FALSE,FALSE,30,Male,FALSE,pending,ATM Network
+TXN0004139,2024-01-17T10:43:41Z,325.1,financial,withdrawal,manual,Dallas,TX,USA,USD,FALSE,FALSE,62,Female,FALSE,pending,ATM Network
+TXN0004140,2024-03-17T19:15:31Z,752.74,electronics,purchase,contactless,Seattle,WA,USA,USD,FALSE,FALSE,26,Female,FALSE,approved,ElectroZone
+TXN0004141,2024-06-16T20:00:43Z,10.41,books,purchase,online,Boston,MA,USA,USD,FALSE,FALSE,33,Male,TRUE,pending,BookNest
+TXN0004142,2024-06-17T08:31:40Z,14.83,books,purchase,online,Boston,MA,USA,USD,FALSE,FALSE,53,Female,TRUE,approved,BookNest
+TXN0004143,2024-02-10T06:52:55Z,9.7,gifts,refund,manual,Phoenix,AZ,USA,USD,FALSE,FALSE,50,Male,FALSE,pending,GiftWorld
+TXN0004144,2024-04-24T21:33:18Z,15.28,books,purchase,online,San Jose,CA,USA,USD,FALSE,FALSE,30,Other,TRUE,pending,BookNest
+TXN0004145,2024-06-11T18:44:39Z,15.93,books,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,34,Other,FALSE,pending,BookNest
+TXN0004146,2024-06-30T08:30:11Z,19.96,books,purchase,online,Seattle,WA,USA,USD,FALSE,FALSE,42,Male,TRUE,approved,BookNest
+TXN0004147,2024-06-27T09:59:50Z,20.64,books,purchase,online,Seattle,WA,USA,USD,FALSE,FALSE,35,Female,TRUE,pending,BookNest
+TXN0004148,2024-06-19T11:32:01Z,16.02,restaurant,purchase,contactless,San Francisco,CA,USA,USD,FALSE,FALSE,36,Female,FALSE,pending,TinyCafe
+TXN0004149,2024-01-14T20:00:37Z,19.23,grocery,purchase,chip,San Jose,CA,USA,USD,FALSE,FALSE,22,Male,FALSE,approved,QuickMart
+TXN0004150,2024-02-09T06:31:34Z,8.66,gifts,refund,manual,Phoenix,AZ,USA,USD,FALSE,FALSE,46,Male,FALSE,pending,GiftWorld
+TXN0004151,2024-03-09T19:31:15Z,22.48,restaurant,purchase,swipe,Portland,OR,USA,USD,FALSE,FALSE,33,Female,FALSE,pending,TinyCafe
+TXN0004152,2024-02-16T15:43:17Z,15.32,restaurant,purchase,swipe,Portland,OR,USA,USD,FALSE,FALSE,51,Male,FALSE,pending,TinyCafe
+TXN0004153,2024-01-14T20:42:39Z,19.62,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,18,Male,FALSE,approved,QuickMart
+TXN0004154,2024-02-18T16:44:00Z,14.46,restaurant,purchase,swipe,Portland,OR,USA,USD,FALSE,FALSE,23,Female,FALSE,pending,TinyCafe
+TXN0004155,2024-05-05T16:07:32Z,20.86,books,purchase,online,Austin,TX,USA,USD,FALSE,FALSE,44,Female,TRUE,approved,BookNest
+TXN0004156,2024-06-18T21:40:48Z,13.58,restaurant,purchase,contactless,Toronto,ON,USA,USD,FALSE,FALSE,45,Female,FALSE,pending,TinyCafe
+TXN0004157,2024-06-08T13:12:53Z,15.52,books,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,44,Female,FALSE,pending,BookNest
+TXN0004158,2024-02-09T10:33:59Z,8.28,gifts,refund,manual,Phoenix,AZ,USA,USD,FALSE,FALSE,43,Female,FALSE,pending,GiftWorld
+TXN0004159,2024-01-18T22:37:12Z,18.15,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,38,Female,FALSE,pending,QuickMart
+TXN0004160,2024-06-18T06:38:04Z,16.42,books,purchase,online,Boston,MA,USA,USD,FALSE,FALSE,34,Male,TRUE,pending,BookNest
+TXN0004161,2024-02-07T09:12:38Z,9.31,gifts,refund,manual,Phoenix,AZ,USA,USD,FALSE,FALSE,38,Male,FALSE,pending,GiftWorld
+TXN0004162,2024-02-14T23:58:22Z,14.86,restaurant,purchase,swipe,Portland,OR,USA,USD,FALSE,FALSE,31,Male,FALSE,pending,TinyCafe
+TXN0004163,2024-06-08T17:29:25Z,16.23,books,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,62,Female,FALSE,pending,BookNest
+TXN0004164,2024-06-20T15:39:12Z,14.36,restaurant,purchase,contactless,San Jose,CA,USA,USD,FALSE,FALSE,23,Male,FALSE,approved,TinyCafe
+TXN0004165,2024-02-11T11:48:53Z,8.71,gifts,refund,manual,Chicago,IL,USA,USD,FALSE,FALSE,35,Male,FALSE,approved,GiftWorld
+TXN0004166,2024-05-18T20:09:43Z,21.96,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,33,Male,FALSE,pending,QuickMart
+TXN0004167,2024-06-19T07:13:59Z,17.66,restaurant,purchase,contactless,San Francisco,CA,USA,USD,FALSE,FALSE,49,Female,FALSE,pending,TinyCafe
+TXN0004168,2024-03-09T18:12:41Z,24.6,restaurant,purchase,swipe,Portland,OR,USA,USD,FALSE,FALSE,49,Female,FALSE,pending,TinyCafe
+TXN0004169,2024-01-16T16:06:24Z,19.54,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,31,Male,FALSE,approved,QuickMart
+TXN0004170,2024-02-10T22:59:14Z,16.79,restaurant,purchase,swipe,Portland,OR,USA,USD,FALSE,FALSE,48,Male,FALSE,pending,TinyCafe
+TXN0004171,2024-07-12T14:14:32Z,199.12,electronics,purchase,chip,Atlanta,GA,USA,USD,FALSE,FALSE,47,Female,FALSE,pending,ElectroZone
+TXN0004172,2024-02-03T20:21:08Z,113.69,electronics,refund,manual,Phoenix,AZ,USA,USD,FALSE,FALSE,39,Male,FALSE,pending,ElectroZone
+TXN0004173,2024-02-18T04:59:04Z,191.48,,withdrawal,manual,Austin,TX,USA,USD,FALSE,FALSE,24,Female,FALSE,pending,ATMWithdrawal
+TXN0004174,2024-03-14T17:34:12Z,147.67,electronics,purchase,chip,Phoenix,AZ,USA,USD,FALSE,FALSE,36,Male,FALSE,approved,ElectroZone
+TXN0004175,2024-07-07T17:53:29Z,221.82,electronics,purchase,chip,Atlanta,GA,USA,USD,FALSE,FALSE,50,Female,FALSE,pending,ElectroZone
+TXN0004176,2024-02-06T00:26:18Z,111.57,electronics,refund,manual,Phoenix,AZ,USA,USD,FALSE,FALSE,39,Female,FALSE,pending,ElectroZone
+TXN0004177,2024-07-09T21:16:48Z,93.63,gifts,purchase,contactless,Phoenix,AZ,USA,USD,FALSE,FALSE,49,Female,FALSE,approved,GiftWorld
+TXN0004178,2024-04-16T15:19:19Z,112.57,gifts,purchase,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,18,Male,FALSE,pending,GiftWorld
+TXN0004179,2024-01-11T10:36:22Z,123.21,apparel,refund,manual,Dallas,TX,USA,USD,FALSE,FALSE,33,Male,FALSE,pending,FashionBay
+TXN0004180,2024-07-10T17:02:13Z,108.14,apparel,purchase,contactless,Denver,CO,USA,USD,FALSE,FALSE,29,Female,FALSE,pending,FashionBay
+TXN0004181,2024-07-06T21:11:36Z,114.56,apparel,purchase,contactless,Dallas,TX,USA,USD,FALSE,FALSE,36,Male,FALSE,pending,FashionBay
+TXN0004182,2024-01-12T07:56:28Z,124.83,apparel,refund,manual,Dallas,TX,USA,USD,FALSE,FALSE,22,Male,FALSE,approved,FashionBay
+TXN0004183,2024-07-03T16:16:13Z,159.38,gifts,purchase,contactless,Berlin,,USA,USD,FALSE,TRUE,51,Male,FALSE,declined,GiftWorld
+TXN0004184,2024-02-15T05:33:22Z,191.08,,withdrawal,manual,Miami,FL,USA,USD,FALSE,FALSE,62,Male,FALSE,approved,ATMWithdrawal
+TXN0004185,2024-02-15T08:06:34Z,182.44,,withdrawal,manual,Austin,TX,USA,USD,FALSE,FALSE,45,Female,FALSE,pending,ATMWithdrawal
+TXN0004186,2024-07-01T17:04:51Z,162.41,gifts,purchase,contactless,Dallas,TX,USA,USD,FALSE,TRUE,35,Male,FALSE,declined,GiftWorld
+TXN0004187,2024-02-15T05:23:50Z,181.13,,withdrawal,manual,Seattle,WA,USA,USD,FALSE,FALSE,33,Female,FALSE,pending,ATM Network
+TXN0004188,2024-06-08T15:11:26Z,194.81,apparel,purchase,contactless,Cleveland,OH,USA,USD,FALSE,FALSE,40,Male,FALSE,pending,FashionBay
+TXN0004189,2024-07-06T21:35:34Z,201.04,electronics,purchase,chip,Atlanta,GA,USA,USD,FALSE,FALSE,24,Male,FALSE,approved,ElectroZone
+TXN0004190,2024-02-03T22:07:08Z,115.81,electronics,refund,manual,Phoenix,AZ,USA,USD,FALSE,FALSE,44,Male,FALSE,approved,ElectroZone
+TXN0004191,2024-04-08T19:39:32Z,191.13,apparel,purchase,swipe,Sydney,NSW,USA,USD,FALSE,FALSE,23,Female,FALSE,pending,FashionBay
+TXN0004192,2024-03-13T03:44:10Z,126.99,gifts,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,38,Male,FALSE,approved,GiftWorld
+TXN0004193,2024-06-03T21:52:32Z,123.22,grocery,purchase,chip,Seattle,WA,USA,USD,FALSE,FALSE,37,Male,FALSE,approved,FarmFresh
+TXN0004194,2024-07-10T21:05:34Z,106.72,apparel,purchase,contactless,Dallas,TX,USA,USD,FALSE,FALSE,54,Male,FALSE,pending,FashionBay
+TXN0004195,2024-07-11T10:56:12Z,207.92,electronics,purchase,chip,Atlanta,GA,USA,USD,FALSE,FALSE,40,Male,FALSE,pending,ElectroZone
+TXN0004196,2024-06-10T16:24:49Z,105.88,apparel,purchase,swipe,San Diego,CA,USA,USD,FALSE,FALSE,52,Female,FALSE,pending,FashionBay
+TXN0004197,2024-01-08T13:39:26Z,200.65,financial,withdrawal,manual,Dallas,TX,USA,USD,FALSE,FALSE,57,Female,FALSE,pending,ATM Network
+TXN0004198,2024-04-19T16:57:20Z,114.9,gifts,purchase,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,21,Female,FALSE,pending,GiftWorld
+TXN0004199,2024-07-06T07:12:59Z,165.98,gifts,purchase,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,74,Male,FALSE,pending,GiftWorld
+TXN0004200,2024-07-09T01:31:14Z,93.88,gifts,purchase,contactless,Phoenix,AZ,USA,USD,FALSE,FALSE,49,Female,FALSE,pending,GiftWorld
+TXN0004201,2024-04-14T03:36:53Z,43.75,gifts,purchase,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,20,Male,FALSE,pending,GiftWorld
+TXN0004202,2024-07-02T18:06:10Z,45.51,gifts,purchase,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,45,Male,FALSE,pending,GiftWorld
+TXN0004203,2024-07-03T16:44:09Z,43.14,fuel,purchase,contactless,Houston,TX,USA,USD,FALSE,FALSE,44,Male,FALSE,pending,FuelExpress
+TXN0004204,2024-03-05T20:13:37Z,47.86,apparel,purchase,swipe,San Diego,CA,USA,USD,FALSE,FALSE,52,Female,FALSE,pending,FashionBay
+TXN0004205,2024-03-21T11:55:43Z,51.13,fuel,purchase,swipe,Cleveland,OH,USA,USD,FALSE,FALSE,63,Male,FALSE,pending,FuelExpress
+TXN0004206,2024-05-04T12:20:45Z,50.53,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,53,Male,FALSE,pending,QuickMart
+TXN0004207,2024-05-23T07:07:14Z,50.27,gifts,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,37,Male,FALSE,pending,GiftWorld
+TXN0004208,2024-06-29T18:04:21Z,48.73,gifts,purchase,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,51,Female,FALSE,pending,GiftWorld
+TXN0004209,2024-04-20T15:18:14Z,43.45,fuel,purchase,contactless,Phoenix,AZ,USA,USD,FALSE,FALSE,44,Female,FALSE,pending,FuelExpress
+TXN0004210,2024-06-29T19:01:37Z,52.46,fuel,purchase,swipe,Miami,FL,USA,USD,FALSE,FALSE,38,Male,FALSE,pending,FuelExpress
+TXN0004211,2024-05-01T14:44:45Z,49.7,grocery,purchase,chip,Chicago,IL,USA,USD,FALSE,FALSE,44,Female,FALSE,approved,QuickMart
+TXN0004212,2024-06-14T18:29:20Z,54.66,grocery,purchase,swipe,Chicago,IL,USA,USD,FALSE,FALSE,39,Male,FALSE,pending,QuickMart
+TXN0004213,2024-07-14T17:04:50Z,58.66,apparel,purchase,contactless,Dallas,TX,USA,USD,FALSE,FALSE,44,Other,FALSE,approved,FashionBay
+TXN0004214,2024-06-21T20:19:07Z,58.08,fuel,purchase,manual,Houston,TX,USA,USD,FALSE,FALSE,49,Female,FALSE,approved,FuelExpress
+TXN0004215,2024-04-10T04:49:56Z,44.57,gifts,purchase,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,54,Male,FALSE,pending,GiftWorld
+TXN0004216,2024-07-05T15:13:14Z,55.79,fuel,purchase,swipe,Chicago,IL,USA,USD,FALSE,FALSE,33,Male,FALSE,pending,FuelExpress
+TXN0004217,2024-06-17T20:09:58Z,57.86,grocery,purchase,swipe,Munich,BY,USA,USD,FALSE,FALSE,36,Male,FALSE,approved,QuickMart
+TXN0004218,2024-06-26T20:38:37Z,50.66,fuel,purchase,swipe,Houston,TX,USA,USD,FALSE,FALSE,55,Female,FALSE,pending,FuelExpress
+TXN0004219,2024-04-18T14:56:20Z,40.81,fuel,purchase,contactless,Phoenix,AZ,USA,USD,FALSE,FALSE,26,Female,FALSE,approved,FuelExpress
+TXN0004220,2024-03-17T12:20:22Z,56.69,fuel,purchase,swipe,Atlanta,GA,USA,USD,FALSE,FALSE,41,Female,FALSE,pending,FuelExpress
+TXN0004221,2024-03-19T18:42:38Z,57.18,fuel,purchase,swipe,Atlanta,GA,USA,USD,FALSE,FALSE,41,Other,FALSE,pending,FuelExpress
+TXN0004222,2024-07-01T18:04:52Z,48.92,gifts,purchase,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,45,Female,FALSE,pending,GiftWorld
+TXN0004223,2024-05-24T07:01:22Z,52.77,gifts,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,31,Male,FALSE,pending,GiftWorld
+TXN0004224,2024-06-16T16:42:26Z,49.62,grocery,purchase,swipe,Chicago,IL,USA,USD,FALSE,FALSE,45,Male,FALSE,approved,QuickMart
+TXN0004225,2024-03-05T19:21:04Z,46.82,apparel,purchase,swipe,San Diego,CA,USA,USD,FALSE,FALSE,19,Male,FALSE,pending,FashionBay
+TXN0004226,2024-05-20T06:24:23Z,50.92,gifts,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,18,Male,FALSE,pending,GiftWorld
+TXN0004227,2024-05-24T06:08:56Z,49.34,gifts,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,40,Male,FALSE,approved,GiftWorld
+TXN0004228,2024-04-13T09:24:49Z,46.1,gifts,purchase,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,35,Male,FALSE,pending,GiftWorld
+TXN0004229,2024-03-15T17:52:36Z,58.59,fuel,purchase,swipe,Atlanta,GA,USA,USD,FALSE,FALSE,44,Female,FALSE,approved,FuelExpress
+TXN0004230,2024-04-11T09:19:19Z,44.5,gifts,purchase,swipe,Phoenix,AZ,USA,USD,FALSE,FALSE,18,Male,FALSE,pending,GiftWorld
+TXN0004231,2024-04-11T07:52:46Z,0.5,miscellaneous,purchase,online,Seattle,WA,USA,USD,,FALSE,21,Male,TRUE,pending,EdgeCaseStore
+TXN0004232,2024-04-04T08:50:45Z,0.5,miscellaneous,purchase,manual,,,USA,USD,FALSE,FALSE,36,Male,FALSE,approved,EdgeCaseStore
+TXN0004233,2023-12-26T07:59:10Z,2.78,miscellaneous,purchase,manual,Denver,CO,USA,USD,FALSE,FALSE,42,Male,FALSE,pending,EdgeCaseStore
+TXN0004234,2024-02-27T11:11:57Z,0.95,miscellaneous,refund,manual,Denver,CO,USA,USD,FALSE,FALSE,38,Female,FALSE,approved,EdgeCaseStore
+TXN0004235,2024-04-12T05:57:47Z,0.5,miscellaneous,purchase,online,,,USA,USD,,FALSE,51,Male,TRUE,pending,EdgeCaseStore
+TXN0004236,2024-06-03T09:57:46Z,2.11,miscellaneous,purchase,manual,,,USA,USD,,FALSE,42,Female,FALSE,pending,EdgeCaseStore
+TXN0004237,2024-07-13T16:28:43Z,5.64,restaurant,purchase,chip,Boston,MA,USA,USD,FALSE,FALSE,30,Female,FALSE,pending,TinyCafe
+TXN0004238,2024-01-26T08:17:09Z,1.94,miscellaneous,purchase,manual,,,USA,USD,FALSE,FALSE,43,Male,FALSE,pending,EdgeCaseStore
+TXN0004239,2024-02-15T16:34:48Z,0.86,books,refund,manual,Boston,MA,USA,USD,FALSE,FALSE,23,Male,FALSE,pending,BookNest
+TXN0004240,2024-04-26T18:41:47Z,0.5,miscellaneous,refund,manual,,,USA,USD,FALSE,FALSE,42,Female,FALSE,pending,EdgeCaseStore
+TXN0004241,2024-07-03T20:15:08Z,4.77,books,purchase,online,Seattle,WA,USA,USD,FALSE,FALSE,21,Male,TRUE,approved,BookNest
+TXN0004242,2024-06-03T06:56:35Z,1.99,miscellaneous,purchase,manual,,,USA,USD,,FALSE,43,Male,FALSE,pending,EdgeCaseStore
+TXN0004243,2024-02-12T15:30:58Z,0.88,books,refund,manual,Cleveland,OH,USA,USD,FALSE,FALSE,35,Male,FALSE,approved,BookNest
+TXN0004244,2024-07-02T18:10:53Z,4.63,books,purchase,online,Seattle,WA,USA,USD,FALSE,FALSE,45,Male,TRUE,pending,BookNest
+TXN0004245,2024-07-15T12:25:59Z,0.95,books,refund,manual,Seattle,WA,USA,USD,FALSE,FALSE,34,Male,FALSE,approved,BookNest
+TXN0004246,2024-02-27T14:28:03Z,1.39,miscellaneous,refund,manual,Denver,CO,USA,USD,FALSE,FALSE,42,Male,FALSE,pending,EdgeCaseStore
+TXN0004247,2024-06-14T11:55:24Z,8.41,books,purchase,online,Austin,TX,USA,USD,FALSE,FALSE,32,Male,TRUE,pending,BookNest
+TXN0004248,2024-01-25T05:28:50Z,2.2,miscellaneous,purchase,manual,,,USA,USD,FALSE,FALSE,42,Female,FALSE,pending,EdgeCaseStore
+TXN0004249,2024-06-06T17:23:06Z,3.67,miscellaneous,refund,manual,Denver,CO,USA,USD,FALSE,FALSE,57,Male,FALSE,pending,EdgeCaseStore
+TXN0004250,2024-04-28T21:27:30Z,0.5,miscellaneous,refund,manual,,,USA,USD,FALSE,FALSE,41,Female,FALSE,pending,EdgeCaseStore
+TXN0004251,2024-06-10T16:13:31Z,3.31,miscellaneous,refund,manual,Denver,CO,USA,USD,FALSE,FALSE,43,Female,FALSE,pending,EdgeCaseStore
+TXN0004252,2024-04-14T08:18:35Z,0.5,miscellaneous,purchase,online,Chicago,IL,USA,USD,,FALSE,31,Male,TRUE,pending,EdgeCaseStore
+TXN0004253,2024-07-14T08:55:05Z,1.24,books,refund,manual,Seattle,WA,USA,USD,FALSE,FALSE,18,Female,FALSE,pending,BookNest
+TXN0004254,2024-04-15T07:51:29Z,0.5,miscellaneous,purchase,online,,,USA,USD,,FALSE,48,Male,TRUE,pending,EdgeCaseStore
+TXN0004255,2024-04-04T10:48:33Z,0.5,miscellaneous,purchase,manual,,,USA,USD,FALSE,FALSE,28,Female,FALSE,pending,EdgeCaseStore
+TXN0004256,2024-06-28T21:48:41Z,5.57,gifts,refund,manual,Phoenix,AZ,USA,USD,FALSE,FALSE,49,Female,FALSE,pending,GiftWorld
+TXN0004257,2024-04-04T07:44:46Z,0.5,miscellaneous,purchase,manual,,,USA,USD,FALSE,FALSE,68,Female,FALSE,pending,EdgeCaseStore
+TXN0004258,2024-07-05T10:54:51Z,3.59,books,refund,online,Seattle,WA,USA,USD,FALSE,FALSE,40,Male,TRUE,pending,BookNest
+TXN0004259,2024-06-30T21:46:28Z,6.76,gifts,refund,manual,Phoenix,AZ,USA,USD,FALSE,FALSE,27,Female,FALSE,approved,GiftWorld
+TXN0004260,2024-07-02T11:39:44Z,6.91,books,refund,online,Seattle,WA,USA,USD,FALSE,FALSE,42,Female,TRUE,approved,BookNest
+TXN0004261,2024-02-28T01:27:49Z,1846.77,travel,purchase,online,Toronto,ON,USA,USD,FALSE,FALSE,34,Female,TRUE,approved,SkyTravel
+TXN0004262,2024-02-27T10:43:22Z,2095.99,travel,purchase,online,Austin,TX,USA,AUD,TRUE,FALSE,42,Male,TRUE,pending,Sunshine Travel
+TXN0004263,2024-02-29T21:45:03Z,1360.04,travel,purchase,online,Los Angeles,CA,USA,USD,TRUE,FALSE,39,Male,TRUE,pending,SkyTravel
+TXN0004264,2024-02-25T08:03:54Z,2157.45,travel,purchase,online,Toronto,ON,CAN,EUR,TRUE,FALSE,45,Female,TRUE,approved,Sunshine Travel
+TXN0004265,2024-07-01T10:21:30Z,1139.58,travel,purchase,online,Portland,OR,USA,EUR,TRUE,FALSE,35,Male,TRUE,pending,SkyTravel
+TXN0004266,2024-04-13T15:35:21Z,996.79,travel,refund,online,Berlin,,DEU,EUR,TRUE,FALSE,56,Male,TRUE,pending,Sunshine Travel
+TXN0004267,2024-02-25T08:40:43Z,2195.06,travel,purchase,online,Sydney,NSW,AUS,AUD,TRUE,FALSE,38,Female,TRUE,pending,Sunshine Travel
+TXN0004268,2024-02-27T20:09:51Z,1275.71,travel,purchase,online,New York,NY,USA,USD,TRUE,FALSE,51,Male,TRUE,approved,SkyTravel
+TXN0004269,2024-07-01T21:52:58Z,1299.67,travel,purchase,online,London,,GBR,GBP,TRUE,FALSE,31,Male,TRUE,pending,Sunshine Travel
+TXN0004270,2024-03-25T04:06:25Z,1152.41,travel,purchase,online,Berlin,,DEU,EUR,TRUE,FALSE,36,Female,TRUE,approved,Sunshine Travel
+TXN0004271,2024-04-30T21:51:06Z,1890.04,travel,purchase,online,Melbourne,VIC,AUS,AUD,TRUE,FALSE,18,Female,TRUE,pending,SkyTravel
+TXN0004272,2024-06-08T14:04:43Z,1398.28,financial,withdrawal,manual,Los Angeles,CA,USA,USD,FALSE,FALSE,36,Female,FALSE,pending,ATM Network
+TXN0004273,2024-01-14T17:54:31Z,952.44,financial,withdrawal,manual,Dallas,TX,USA,USD,FALSE,FALSE,19,Male,FALSE,approved,ATM Network
+TXN0004274,2024-07-05T15:49:56Z,1361.93,travel,purchase,online,London,,GBR,GBP,TRUE,FALSE,48,Female,TRUE,approved,Sunshine Travel
+TXN0004275,2024-03-14T09:16:07Z,964.58,electronics,purchase,chip,Dallas,TX,USA,USD,FALSE,TRUE,32,Female,FALSE,declined,ElectroZone
+TXN0004276,2024-03-21T09:15:03Z,1144.41,travel,purchase,online,Berlin,,DEU,EUR,TRUE,FALSE,37,Female,TRUE,pending,SkyTravel
+TXN0004277,2024-07-02T17:53:39Z,1416.29,travel,purchase,online,London,,GBR,GBP,TRUE,FALSE,48,Female,TRUE,pending,SkyTravel
+TXN0004278,2024-03-01T16:45:46Z,1233.35,travel,purchase,online,Toronto,ON,USA,USD,FALSE,FALSE,47,Male,TRUE,pending,SkyTravel
+TXN0004279,2024-03-15T10:54:04Z,1048.12,electronics,purchase,chip,Dallas,TX,USA,USD,FALSE,TRUE,46,Other,FALSE,declined,ElectroZone
+TXN0004280,2024-03-21T14:49:02Z,1954.52,electronics,purchase,chip,Dallas,TX,USA,USD,FALSE,FALSE,39,Female,FALSE,approved,ElectroZone
+TXN0004281,2024-03-24T05:04:47Z,957.77,travel,purchase,online,Berlin,,DEU,EUR,TRUE,FALSE,60,Male,TRUE,pending,Sunshine Travel
+TXN0004282,2024-02-29T15:12:31Z,1156.77,travel,purchase,online,Toronto,ON,USA,USD,FALSE,FALSE,35,Male,TRUE,pending,SkyTravel
+TXN0004283,2024-07-03T19:38:57Z,1408.67,travel,purchase,online,London,,GBR,GBP,TRUE,FALSE,31,Male,TRUE,approved,Sunshine Travel
+TXN0004284,2024-02-28T21:00:56Z,1944.99,travel,purchase,online,Toronto,ON,USA,USD,FALSE,FALSE,25,Female,TRUE,pending,SkyTravel
+TXN0004285,2024-02-13T12:39:36Z,1502.37,electronics,purchase,chip,San Diego,CA,USA,USD,FALSE,FALSE,46,Female,FALSE,pending,ElectroZone
+TXN0004286,2024-02-27T21:22:34Z,1293.76,travel,purchase,online,Toronto,ON,USA,USD,FALSE,FALSE,18,Female,TRUE,approved,SkyTravel
+TXN0004287,2024-05-16T12:48:06Z,1523.13,travel,purchase,online,Toronto,ON,USA,USD,FALSE,FALSE,38,Female,TRUE,pending,SkyTravel
+TXN0004288,2024-02-13T13:06:54Z,1378.47,electronics,purchase,chip,San Diego,CA,USA,USD,FALSE,FALSE,34,Female,FALSE,pending,ElectroZone
+TXN0004289,2024-02-24T07:04:51Z,2138.35,travel,purchase,online,Berlin,BE,DEU,EUR,TRUE,FALSE,59,Female,TRUE,pending,Sunshine Travel
+TXN0004290,2024-02-25T14:43:43Z,2385.56,travel,purchase,online,Sydney,NSW,AUS,AUD,TRUE,FALSE,40,Female,TRUE,approved,Sunshine Travel
+TXN0004291,2024-06-11T10:13:17Z,9685.21,financial,transfer,online,Austin,TX,USA,USD,FALSE,TRUE,46,Female,TRUE,declined,CryptoExchange
+TXN0004292,2024-05-09T23:10:38Z,2584.62,travel,purchase,online,Dallas,TX,USA,GBP,TRUE,FALSE,31,Other,TRUE,approved,SkyTravel
+TXN0004293,2024-07-13T11:02:51Z,3562.27,travel,purchase,online,London,,GBR,GBP,TRUE,FALSE,30,Male,TRUE,pending,Sunshine Travel
+TXN0004294,2024-01-04T22:36:59Z,3318.56,travel,purchase,online,Toronto,ON,USA,USD,FALSE,FALSE,44,Male,TRUE,pending,SkyTravel
+TXN0004295,2024-04-06T06:17:56Z,3285.84,travel,purchase,online,Miami,FL,USA,USD,TRUE,FALSE,37,Male,TRUE,pending,Sunshine Travel
+TXN0004296,2024-05-09T19:22:02Z,2553.58,travel,purchase,online,Seattle,WA,USA,GBP,TRUE,FALSE,18,Female,TRUE,pending,SkyTravel
+TXN0004297,2024-04-30T20:10:30Z,3443.92,travel,purchase,online,London,,GBR,GBP,TRUE,FALSE,29,Male,TRUE,pending,SkyTravel
+TXN0004298,2024-04-09T19:27:41Z,2462.97,,withdrawal,manual,San Jose,CA,USA,USD,FALSE,FALSE,44,Female,FALSE,pending,ATMWithdrawal
+TXN0004299,2024-06-06T16:23:22Z,2295.22,travel,purchase,online,Miami,FL,USA,USD,TRUE,FALSE,18,Male,TRUE,pending,SkyTravel
+TXN0004300,2024-06-11T08:56:14Z,9406.68,financial,transfer,online,New York,NY,USA,USD,FALSE,TRUE,37,Male,TRUE,declined,ATM Network
+TXN0004301,2024-06-25T09:51:27Z,11278.61,financial,transfer,online,San Francisco,CA,USA,USD,FALSE,FALSE,59,Female,TRUE,pending,CryptoExchange
+TXN0004302,2024-04-02T10:04:09Z,3185.96,travel,purchase,online,Miami,FL,USA,USD,TRUE,FALSE,27,Female,TRUE,pending,Sunshine Travel
+TXN0004303,2024-03-08T09:22:55Z,3356.82,travel,purchase,online,Miami,FL,USA,USD,TRUE,FALSE,43,Female,TRUE,pending,SkyTravel
+TXN0004304,2024-05-12T09:53:45Z,3982.47,travel,purchase,online,Miami,FL,USA,USD,TRUE,FALSE,29,Male,TRUE,pending,Sunshine Travel
+TXN0004305,2024-04-03T07:47:25Z,3247.28,travel,purchase,online,Miami,FL,USA,USD,TRUE,FALSE,18,Male,TRUE,approved,Sunshine Travel
+TXN0004306,2024-04-29T17:48:48Z,3335.05,travel,purchase,online,London,,GBR,GBP,TRUE,FALSE,38,Male,TRUE,pending,Sunshine Travel
+TXN0004307,2024-07-06T18:58:13Z,2050.27,travel,purchase,online,New York,NY,USA,USD,FALSE,FALSE,39,Male,TRUE,approved,Sunshine Travel
+TXN0004308,2024-04-30T22:58:49Z,3430.11,travel,purchase,online,New York,NY,USA,GBP,TRUE,FALSE,42,Male,TRUE,approved,Sunshine Travel
+TXN0004309,2024-07-06T18:29:27Z,2226.79,travel,purchase,online,New York,NY,USA,USD,FALSE,FALSE,40,Female,TRUE,pending,SkyTravel
+TXN0004310,2024-06-02T22:03:22Z,2168.21,travel,purchase,online,Los Angeles,CA,USA,USD,TRUE,FALSE,34,Male,TRUE,pending,Sunshine Travel
+TXN0004311,2024-06-04T18:49:18Z,2287.51,travel,purchase,online,Melbourne,VIC,AUS,USD,TRUE,FALSE,38,Female,TRUE,approved,Sunshine Travel
+TXN0004312,2024-05-13T19:41:45Z,2570.91,travel,purchase,online,London,,GBR,GBP,TRUE,FALSE,49,Female,TRUE,pending,SkyTravel
+TXN0004313,2024-04-16T18:35:31Z,11129.74,financial,transfer,online,Zurich,,CHE,EUR,TRUE,TRUE,60,Female,TRUE,declined,CryptoExchange
+TXN0004314,2024-03-29T06:16:24Z,3289.18,travel,purchase,online,Munich,BY,DEU,EUR,TRUE,FALSE,59,Male,TRUE,pending,Sunshine Travel
+TXN0004315,2024-06-13T12:11:15Z,10782.56,financial,transfer,online,New York,NY,USA,USD,FALSE,TRUE,45,Male,TRUE,declined,CryptoExchange
+TXN0004316,2024-06-11T11:13:41Z,10544.6,financial,transfer,online,New York,NY,USA,USD,FALSE,TRUE,37,Female,TRUE,declined,CryptoExchange
+TXN0004317,2024-02-18T12:59:16Z,2480.7,electronics,purchase,chip,San Diego,CA,USA,USD,FALSE,FALSE,44,Other,FALSE,pending,ElectroZone
+TXN0004318,2024-05-07T13:28:13Z,2663.2,travel,purchase,online,Miami,FL,USA,USD,TRUE,FALSE,18,Male,TRUE,approved,Sunshine Travel
+TXN0004319,2024-06-12T11:49:29Z,9633.88,financial,transfer,online,San Diego,CA,USA,USD,FALSE,TRUE,35,Other,TRUE,declined,CryptoExchange
+TXN0004320,2024-04-12T13:17:50Z,11402.67,financial,transfer,online,San Jose,CA,USA,EUR,TRUE,TRUE,37,Female,TRUE,declined,CryptoExchange
+TXN0004321,2024-03-15T06:56:47Z,58139.66,automotive,purchase,manual,San Francisco,CA,USA,USD,FALSE,FALSE,41,Female,FALSE,pending,LuxuryAuto
+TXN0004322,2024-04-28T10:39:53Z,132747.11,automotive,purchase,manual,San Francisco,CA,USA,USD,FALSE,TRUE,52,Female,FALSE,declined,LuxuryAuto
+TXN0004323,2024-03-14T09:32:29Z,57605.22,automotive,purchase,manual,San Francisco,CA,USA,USD,FALSE,FALSE,55,Female,FALSE,approved,LuxuryAuto
+TXN0004324,2024-06-16T14:00:49Z,19836.92,automotive,purchase,online,Los Angeles,CA,USA,USD,TRUE,FALSE,35,Male,TRUE,approved,LuxuryAuto
+TXN0004325,2024-04-29T06:09:50Z,128601.15,automotive,purchase,manual,San Francisco,CA,USA,USD,FALSE,TRUE,37,Male,FALSE,declined,LuxuryAuto
+TXN0004326,2024-03-20T09:56:13Z,100703.53,automotive,purchase,manual,San Francisco,CA,USA,USD,FALSE,TRUE,27,Female,FALSE,declined,LuxuryAuto
+TXN0004327,2024-06-07T19:51:25Z,33947.06,financial,transfer,online,Zurich,,CHE,USD,TRUE,TRUE,40,Female,TRUE,declined,CryptoExchange
+TXN0004328,2024-04-21T19:07:26Z,149026.4,automotive,purchase,online,Los Angeles,CA,USA,USD,TRUE,TRUE,46,Female,TRUE,declined,LuxuryAuto
+TXN0004329,2024-07-02T10:52:29Z,49132.87,automotive,purchase,chip,Los Angeles,CA,USA,USD,FALSE,TRUE,29,Male,FALSE,declined,LuxuryAuto
+TXN0004330,2024-06-08T18:08:33Z,33091.51,financial,transfer,online,Zurich,,CHE,USD,TRUE,TRUE,35,Male,TRUE,declined,CryptoExchange
+TXN0004331,2024-04-26T11:36:45Z,127938.43,automotive,purchase,manual,San Francisco,CA,USA,USD,FALSE,TRUE,23,Female,FALSE,declined,LuxuryAuto
+TXN0004332,2024-06-17T12:50:30Z,18557.19,automotive,purchase,online,Los Angeles,CA,USA,USD,TRUE,FALSE,37,Female,TRUE,pending,LuxuryAuto
+TXN0004333,2024-07-08T10:37:13Z,128109.12,automotive,purchase,manual,Los Angeles,CA,USA,USD,FALSE,TRUE,31,Male,FALSE,declined,LuxuryAuto
+TXN0004334,2024-05-03T19:29:15Z,124300.01,automotive,purchase,online,Los Angeles,CA,USA,USD,TRUE,TRUE,49,Male,TRUE,declined,LuxuryAuto
+TXN0004335,2024-07-09T10:17:58Z,97934.71,financial,transfer,online,San Francisco,CA,USA,USD,FALSE,TRUE,30,Male,TRUE,declined,CryptoExchange
+TXN0004336,2024-03-29T08:15:13Z,80507.8,automotive,purchase,manual,San Francisco,CA,USA,USD,FALSE,FALSE,57,Female,FALSE,pending,LuxuryAuto
+TXN0004337,2024-03-17T04:57:45Z,101360.74,automotive,purchase,manual,San Francisco,CA,USA,USD,FALSE,TRUE,35,Male,FALSE,declined,LuxuryAuto
+TXN0004338,2024-03-17T11:27:56Z,101537.22,automotive,purchase,manual,San Francisco,CA,USA,USD,FALSE,TRUE,57,Male,FALSE,declined,LuxuryAuto
+TXN0004339,2024-06-15T05:06:55Z,18710.87,automotive,purchase,manual,San Francisco,CA,USA,USD,FALSE,TRUE,31,Female,FALSE,declined,LuxuryAuto
+TXN0004340,2024-04-29T09:42:30Z,126222.7,automotive,purchase,manual,San Francisco,CA,USA,USD,FALSE,TRUE,64,Male,FALSE,declined,LuxuryAuto
+TXN0004341,2024-06-30T05:36:48Z,47464.08,automotive,purchase,chip,Los Angeles,CA,USA,USD,FALSE,TRUE,29,Female,FALSE,declined,LuxuryAuto
+TXN0004342,2024-05-27T15:12:58Z,47116.1,automotive,purchase,manual,San Francisco,CA,USA,USD,FALSE,TRUE,40,Female,FALSE,declined,LuxuryAuto
+TXN0004343,2024-03-17T11:18:01Z,53665.54,automotive,purchase,manual,San Francisco,CA,USA,USD,FALSE,FALSE,39,Male,FALSE,approved,LuxuryAuto
+TXN0004344,2024-07-06T19:09:28Z,17734.31,financial,transfer,online,San Francisco,CA,USA,USD,FALSE,TRUE,48,Female,TRUE,declined,CryptoExchange
+TXN0004345,2024-07-15T18:11:38Z,105844.67,automotive,purchase,manual,Los Angeles,CA,USA,USD,FALSE,TRUE,25,Female,FALSE,declined,LuxuryAuto
+TXN0004346,2024-06-30T08:11:05Z,43554.54,automotive,purchase,chip,Los Angeles,CA,USA,USD,FALSE,TRUE,35,Male,FALSE,declined,LuxuryAuto
+TXN0004347,2024-04-24T01:49:45Z,146527.87,automotive,purchase,online,Los Angeles,CA,USA,USD,TRUE,TRUE,40,Female,TRUE,declined,LuxuryAuto
+TXN0004348,2024-04-30T16:55:33Z,122216.47,automotive,purchase,online,Los Angeles,CA,USA,USD,TRUE,TRUE,46,Male,TRUE,declined,LuxuryAuto
+TXN0004349,2024-06-16T12:11:13Z,27615.56,financial,withdrawal,manual,Austin,TX,USA,USD,FALSE,TRUE,19,Female,FALSE,declined,CryptoExchange
+TXN0004350,2024-06-18T19:47:11Z,72781.82,automotive,purchase,online,Los Angeles,CA,USA,USD,TRUE,TRUE,47,Male,TRUE,declined,LuxuryAuto
