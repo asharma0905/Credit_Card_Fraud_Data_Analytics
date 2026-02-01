@@ -61,8 +61,7 @@ Dashboard                     | Power BI with KPIs and visuals |
 ![Dashboard Screenshots](dashboard/Credit_Card_Fraud_Project_Dashboard_4.png)
 
 
-> View [dashboard export (PDF)]
-
+> View 
 
 ## Data Source
 
