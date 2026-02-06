@@ -61,7 +61,7 @@ Dashboard                     | Power BI with KPIs and visuals |
 ![Dashboard Screenshots](dashboard/Credit_Card_Fraud_Project_Dashboard_4.png)
 
 
-> **View Interactive Tableau Public Dashboard**: [Tableau Dashboard](https://public.tableau.com/views/Data_project_1/CreditCardDataOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+> **Interactive Tableau Public Dashboard (Full Screen View)**: [Tableau Dashboard](https://public.tableau.com/views/Data_project_1/CreditCardDataOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Data Source
 
